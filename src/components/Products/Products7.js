@@ -1,6 +1,6 @@
 
 import './Products.css'
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Cards5  from '../sliders/cards5';
 import CardProduct from '../Card/cardProducts/CardProduct7'
 import Gallery from '../gallery/gallery7';
@@ -13,7 +13,23 @@ import Footer from '../Footer/Footer';
 
 const PRODUCTOS7 = () => {
 
+  const [price, setPrice] = useState(null);
 
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch('https://api.mercadolibre.com/items?ids=MLC2028375988');
+        const responseData = await response.json();
+        setPrice(responseData);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
+    };
+
+    fetchData();
+  }, []);
+
+  const data = price ? price[0]?.body.price.toLocaleString('es-CL') : null;
 
   return (
   
@@ -24,7 +40,7 @@ const PRODUCTOS7 = () => {
     </div>
     <div className='conteinerProducts1ImagenText'>
       <h1 className='textProducts'>Jackery Generador Solar 500</h1>
-      <h2 className='numberProducts'> $1000000,00</h2>
+      <h2 className='numberProducts'> $1.014.990</h2>
       <p className='BodyProducts'>Jackery Generador Solar 500: Estación de Energía Portátil Jackery Explore 500 + Panel Solar SolarSaga 100W</p>
       <p className='BodyProducts'>Batería de 518 Wh</p>
       <p className='BodyProducts'>Inversor de 500 W (sobretensión de 1000 W)</p>
@@ -32,7 +48,7 @@ const PRODUCTOS7 = () => {
       <p className='BodyProducts'>7 salidas para dispositivos exteriores</p>
       <p className='BodyProducts'>A prueba de agua y polvo IP65</p>
       <p className='BodyProducts'>Alta eficiencia de conversión de hasta el 23%</p>
-      <a href="https://tu-pagina.com" className="myButtonProduct mb-3" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.mercadolibre.cl/ms/gz/checkout/buy-ms?px_variant_id=25186&item_id=MLC2028375988&parent_url=https://jackery.mercadoshops.cl/MLC-2028375988-jackery-generador-solar-500-_JM&context=vip-mshops&channel=mshops&ms_store=jackery.mercadoshops.cl&quantity=1" className="myButtonProduct mb-3" target="_blank" rel="noopener noreferrer">
         COMPRAR AHORA
       </a>
     </div>

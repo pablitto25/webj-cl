@@ -3,20 +3,20 @@ import React from 'react';
 import './banner.css';
 import banner from './assest/banerBlog.jpg';
 
-const Banner = () => {
+const Banner2 = () => {
   return (
     <div className="banner-container">
       <div className="div1">
         <div className="stripe-1"></div>
         <div className="stripe-8">
          <div className='BannerTex'>
-                <h1 className='BannerTexTitle'>Teclado solar:</h1>
-                <h2 className='BannerTexSubTitle'>¿puede el generador</h2>
-                <h2 className='BannerTexSubTitle'>solar alimentarlo?</h2>
+                <h1 className='BannerTexTitle'>Jackery</h1>
+                <h2 className='BannerTexSubTitle'>GENERADORES</h2>
+                <h2 className='BannerTexSubTitle'>SOLARES</h2>
                 <p className='BannerTexBody'>
-                ¿Quieres saber qué generador solar te conviene comprar para tu teclado solar? No te pierdas nuestra recomendación de compra
+                Una solución que utiliza energía verde y renovable para exploración al aire libre y respaldo de emergencia
                 </p>
-                <a href="#" className="buttonBanner mb-3" rel="noopener noreferrer">
+                <a href="https://tu-pagina.com" className="buttonBanner mb-3" target="_blank" rel="noopener noreferrer">
         EXPLORAR MÁS
           </a>
             </div>
@@ -36,5 +36,5 @@ const Banner = () => {
   );
 };
 
-export default Banner;
+export default Banner2;
 

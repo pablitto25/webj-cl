@@ -20,7 +20,7 @@ const HOME = () => {
         <Carousel1/>
         </div>
         <div className='SliderProducts'>
-        <h1 className='TexTitle'>NUESTROS PRODUCTOS</h1>
+        <h1 id='nuestroProducto' className='TexTitle'>NUESTROS PRODUCTOS</h1>
         <div className='SliderCards'>
         <CardHome/>
         </div>
@@ -36,7 +36,7 @@ const HOME = () => {
               <p className='homeText'>Energía verde y renovable para exploración</p>
               <p className='homeText'>al aire libre y respaldo de emergencia.</p>
             </div>
-            <a href="https://tu-pagina.com" className="myButtonHome " target="_blank" rel="noopener noreferrer">
+            <a href="/PRODUCTOS/Jackery%20Generador%20Solar%201000%20-%202%20paneles" className="myButtonHome " rel="noopener noreferrer">
                 EXPLORAR MÁS
               </a>
 

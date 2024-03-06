@@ -8,9 +8,9 @@ import { Link } from 'react-router-dom';
 
 const footer = () => {
     const icons = [
-        { id: 1, icon: icon1, link: '/ruta-icono-1' },
-        { id: 2, icon: icon2, link: '/ruta-icono-2' },
-        { id: 3, icon: icon3, link: '/ruta-icono-3' },
+        { id: 1, icon: icon1, link: 'https://www.instagram.com/jackerychile/' },
+        { id: 2, icon: icon2, link: 'https://www.youtube.com/channel/UCKzvXJBQk-y7i0vCJRKGneQ' },
+        { id: 3, icon: icon3, link: 'https://www.facebook.com/JackeryChile' },
     ];
     
     const links = [

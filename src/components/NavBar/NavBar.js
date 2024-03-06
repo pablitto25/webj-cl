@@ -46,21 +46,25 @@ const NavBar = () => {
 
   const productsMenuOptions = [ 
     { id: 1, link: "/PRODUCTOS/Jackery Explorer 240", text: "Jackery Explorer 240" },
-    { id: 2, link: "/PRODUCTOS/Jackery Explorer 500", text: "Jackery Explorer 500" },
-    { id: 3, link: "/PRODUCTOS/Jackery Explorer 1000", text: "Jackery Explorer 1000" },
-    { id: 4, link: "/PRODUCTOS/Jackery SolarSaga 100", text: "Jackery SolarSaga 100" },
+    { id: 2, link: "/PRODUCTOS/Jackery Generador Solar 240", text: "Jackery Generador Solar 240" },
+    { id: 3, link: "/PRODUCTOS/Jackery Generador Solar 500", text: "Jackery Generador Solar 500" },
+    { id: 4, link: "/PRODUCTOS/Jackery Generador Solar 1000 ", text: "Jackery Generador Solar 1000" },
     { id: 5, link: "/PRODUCTOS/Jackery Generador Solar 1000 - 2 paneles", text: "Jackery Generador Solar 1000 - 2 paneles" },
-    { id: 6, link: "/PRODUCTOS/Jackery Generador Solar 1000 ", text: "Jackery Generador Solar 1000" },
-    { id: 7, link: "/PRODUCTOS/Jackery Generador Solar 500", text: "Jackery Generador Solar 500" },
-    { id: 8, link: "/PRODUCTOS/Jackery Generador Solar 240", text: "Jackery Generador Solar 240" },
+    /* { id: 6, link: "/PRODUCTOS/Jackery Explorer 500", text: "Jackery Explorer 500" },
+    { id: 7, link: "/PRODUCTOS/Jackery Explorer 1000", text: "Jackery Explorer 1000" },
+    { id: 8, link: "/PRODUCTOS/Jackery SolarSaga 100", text: "Jackery SolarSaga 100" }, */
+    
+    
+    
+    
 
     
   ];
 
   const icons = [
-    { id: 1, icon: icon1, link: '/ruta-icono-1' },
-    { id: 2, icon: icon2, link: '/ruta-icono-2' },
-    { id: 3, icon: icon3, link: '/ruta-icono-3' },
+    { id: 1, icon: icon1, link: 'https://www.instagram.com/jackerychile/ ' },
+    { id: 2, icon: icon2, link: 'https://www.youtube.com/channel/UCKzvXJBQk-y7i0vCJRKGneQ' },
+    { id: 3, icon: icon3, link: 'https://www.facebook.com/JackeryChile' },
   ];
 
   return (
@@ -83,7 +87,7 @@ const NavBar = () => {
                         <ul className="productsMenuOptions">
                           {productsMenuOptions.map(option => (
                             <li key={option.id}>
-                              <Link to={option.link} onClick={() => setNavBarOpen(false)} className='links'>
+                              <Link to={option.link} onClick={() => {setNavBarOpen(false); setProductsMenuOpen(!productsMenuOpen)}} className='links'>
                                 {option.text}
                               </Link>
                             </li>

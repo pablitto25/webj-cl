@@ -1,6 +1,6 @@
 
 import './Products.css'
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Cards5  from '../sliders/cards5';
 import CardProduct from '../Card/cardProducts/CardProduct1'
 import Gallery from '../gallery/gallery1';
@@ -13,7 +13,23 @@ import Footer from '../Footer/Footer';
 
 const PRODUCTOS = () => {
 
+  const [price, setPrice] = useState(null);
 
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch('https://api.mercadolibre.com/items?ids=MLC1429110817');
+        const responseData = await response.json();
+        setPrice(responseData);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
+    };
+
+    fetchData();
+  }, []);
+
+  const data = price ? price[0]?.body.price.toLocaleString('es-CL') : null;
 
   return (
   
@@ -24,14 +40,14 @@ const PRODUCTOS = () => {
     </div>
     <div className='conteinerProducts1ImagenText'>
       <h1 className='textProducts'>Jackery Explorer 240 - Estación de energía portátil</h1>
-      <h2 className='numberProducts'> $1000000,00</h2>
+      <h2 className='numberProducts'> $384.990</h2>
       <p className='BodyProducts'>Batería de litio de 240 Wh (16,8 Ah)</p>
       <p className='BodyProducts'>200 W de salida (400 W de sobrecarga)</p>
       <p className='BodyProducts'>Carga al 100% tu equipo en 5 horas y media</p>
       <p className='BodyProducts'>3 opciones de carga</p>
       <p className='BodyProducts'>2 modalidades de salida</p>
       <p className='BodyProducts'>Indicadores en pantalla de potencia de entrada/salida y batería restante</p>
-      <a href="https://tu-pagina.com" className="myButtonProduct mb-3" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.mercadolibre.cl/ms/gz/checkout/buy-ms?px_variant_id=25186&item_id=MLC1429110817&parent_url=https://jackery.mercadoshops.cl/MLC-1429110817-jackery-explorer-240-estacion-de-energia-portatil-_JM&context=vip-mshops&channel=mshops&ms_store=jackery.mercadoshops.cl&quantity=1" className="myButtonProduct mb-3" target="_blank" rel="noopener noreferrer">
         COMPRAR AHORA
       </a>
     </div>

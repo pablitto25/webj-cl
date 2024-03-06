@@ -34,10 +34,10 @@ function cards() {
         <div class="card border-0 mb-3" style={{ width: '18rem' }}>
         <img src={imagen3} class="card-img-top" alt="..."/>
         <div class="card-body">
-        <h5 class="card-title text-secondary">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <h5 class="card-title text-secondary">Jackery presenta el revolucionario generador solar Mars Bot en CES 2024:  una nueva era para los generadores solares</h5>
+        <p class="card-text">Conoce el avance que Jackery presentó con respecto a los generadores solares: se viene una nueva era</p>
         <div class=" text-body-secondary">
-         2 days ago
+        Fecha: 05/03/24
         </div>
         </div>
        </div>

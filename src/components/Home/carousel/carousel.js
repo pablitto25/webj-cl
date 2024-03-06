@@ -21,7 +21,7 @@ const carousel1 = () => {
   <div className="carousel-caption d-none d-md-block textCarousel carousel-text">
     <h1 className='carouselTexTitle'>Jackery</h1>
     <p className='carouselText'> La libertad de tener energía en cualquier lugar</p>
-    <a href="https://tu-pagina.com" className="myButton " target="_blank" rel="noopener noreferrer">
+    <a href="#nuestroProducto" className="myButton" rel="noopener noreferrer">
       EXPLORAR MÁS
     </a>
   </div>
