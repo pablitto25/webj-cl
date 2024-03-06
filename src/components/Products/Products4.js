@@ -24,13 +24,13 @@ const PRODUCTOS4 = () => {
     </div>
     <div className='conteinerProducts1ImagenText'>
       <h1 className='textProducts'>Jackery SolarSaga 100 - Panel solar portátil</h1>
-      <h2 className='numberProducts'> $1000000,00</h2>
+      {/* <h2 className='numberProducts'> $1000000,00</h2> */}
       <p className='BodyProducts'>Alta eficiencia de conversión de hasta el 23%</p>
       <p className='BodyProducts'>Plegable y portátil</p>
       <p className='BodyProducts'>Resistente al agua IP65</p>
       <p className='BodyProducts'>2 puertos de salida: USB-C y USB-A</p>
-      <a href="https://tu-pagina.com" className="myButtonProduct mb-3" target="_blank" rel="noopener noreferrer">
-        COMPRAR AHORA
+      <a href="/CONTACTO" className="myButtonProduct mb-3" target="_blank" rel="noopener noreferrer">
+        CONSULTAR
       </a>
     </div>
   </div>

@@ -24,15 +24,15 @@ const PRODUCTOS2 = () => {
     </div>
     <div className='conteinerProducts1ImagenText'>
       <h1 className='textProducts'>Jackery Explorer 500 - Estación de energía portátil</h1>
-      <h2 className='numberProducts'> $1000000,00</h2>
+      {/* <h2 className='numberProducts'> $1000000,00</h2> */}
       <p className='BodyProducts'>Batería de litio de 518 Wh</p>
       <p className='BodyProducts'>500 W de salida (1000 W de sobrecarga)</p>
       <p className='BodyProducts'>Diseño portátil</p>
       <p className='BodyProducts'>3 opciones de carga</p>
       <p className='BodyProducts'>3 modalidades de salida</p>
       <p className='BodyProducts'>Indicadores en pantalla de potencia de entrada/salida y batería restante</p>
-      <a href="https://tu-pagina.com" className="myButtonProduct mb-3" target="_blank" rel="noopener noreferrer">
-        COMPRAR AHORA
+      <a href="/CONTACTO" className="myButtonProduct mb-3" target="_blank" rel="noopener noreferrer">
+        CONSULTAR
       </a>
     </div>
   </div>
