@@ -11,8 +11,11 @@ import PRODUCTOS5 from './components/Products/Products5.js';
 import PRODUCTOS6 from './components/Products/Products6.js';
 import PRODUCTOS7 from './components/Products/Products7.js';
 import PRODUCTOS8 from './components/Products/Products8.js';
-import Nota1 from './components/Notas/conocimiento/conocimiento1.js';
+import TecladoSolar from './components/Notas/conocimiento/TecladoSolar.js';
+import MejoresCargadores from './components/Notas/conocimiento/MejoresCargadores.js';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import CorteDeEnergia from './components/Notas/conocimiento/CorteDeEnergia.js';
+import LaGuiaDefinitiva from './components/Notas/conocimiento/LaGuiaDefinitiva.js';
 
 
 
@@ -23,7 +26,10 @@ function App() {
         <NavBar/>
           <Routes>
           <Route path="/" element={<HOME/>} />
-          <Route path="/Blog/Nota1" element={<Nota1/>} />
+          <Route path="/Blog/TecladoSolar" element={<TecladoSolar/>} />
+          <Route path="/Blog/mejores-cargadores-solares-para-excursiones" element={<MejoresCargadores/>} />
+          <Route path="/Blog/corte-de-energia" element={<CorteDeEnergia/>} />
+          <Route path="/Blog/la-guia-definitiva-de-tipos-de-paneles-solares" element={<LaGuiaDefinitiva/>} />
           <Route path="/HOME" element={<HOME/>} />
           <Route path="/PRODUCTOS" element={<PRODUCTOS/>} />
           <Route path="/PRODUCTOS/Jackery Explorer 240" element={<PRODUCTOS/>} />

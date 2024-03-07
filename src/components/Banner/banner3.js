@@ -3,18 +3,18 @@ import React from 'react';
 import './banner.css';
 import banner from './assest/banerBlog.jpg';
 
-const Banner2 = () => {
+const Banner3 = () => {
   return (
     <div className="banner-container">
       <div className="div1">
         <div className="stripe-1"></div>
         <div className="stripe-8">
          <div className='BannerTex'>
-                <h1 className='BannerTexTitle'>Mejores cargadores</h1>
-                <h2 className='BannerTexSubTitle'>solares para</h2>
-                <h2 className='BannerTexSubTitle'>excursiones</h2>
+                <h1 className='BannerTexTitle'>Corte de energía:</h1>
+                <h2 className='BannerTexSubTitle'>¿cuál es la razón por</h2>
+                <h2 className='BannerTexSubTitle'>la que se corta la luz?</h2>
                 <p className='BannerTexBody'>
-                Conoce los beneficios de tener cargadores solares para tus aventuras
+                ¿Quieres saber cuál es el motivo por el cual se corta la energía? ¿Quieres saber cómo actuar frente a esta situación?
                 </p>
                 {/* <a href="https://tu-pagina.com" className="buttonBanner mb-3" target="_blank" rel="noopener noreferrer">
         EXPLORAR MÁS
@@ -36,5 +36,5 @@ const Banner2 = () => {
   );
 };
 
-export default Banner2;
+export default Banner3;
 

@@ -79,7 +79,7 @@ const Blog = () => {
         <div id="consejosDeCompra" className="cardSlider container mb-3">
           <p className="texSlider">CONSEJOS DE COMPRA</p>
           <Cards />
-          <a href="#" className="myButton mb-3" rel="noopener noreferrer">
+          <a href="/BLOG/TecladoSolar" className="myButton mb-3" rel="noopener noreferrer">
         EXPLORAR MÁS
           </a>
         </div>
@@ -87,7 +87,7 @@ const Blog = () => {
         <div id="estiloDeVida" className="cardSlider container mb-3">
         <p className="texSlider">ESTILO DE VIDA</p>
           <Cards2 />
-          <a href="#" className="myButton mb-3" rel="noopener noreferrer">
+          <a href="/Blog/mejores-cargadores-solares-para-excursiones" className="myButton mb-3" rel="noopener noreferrer">
         EXPLORAR MÁS
           </a>
         </div>
@@ -95,7 +95,7 @@ const Blog = () => {
         <div id="emergencia" className="cardSlider container mb-3">
         <p className="texSlider">EMERGENCIA</p>
           <Cards3 />
-          <a href="#" className="myButton mb-3" rel="noopener noreferrer">
+          <a href="/Blog/corte-de-energia" className="myButton mb-3" rel="noopener noreferrer">
         EXPLORAR MÁS
           </a>
         </div>
@@ -103,7 +103,7 @@ const Blog = () => {
         <div id="conocimiento" className="cardSlider container mb-3">
         <p className="texSlider">CONOCIMIENTO</p>
           <Cards4 />
-          <a href="#" className="myButton mb-3" rel="noopener noreferrer">
+          <a href="/Blog/la-guia-definitiva-de-tipos-de-paneles-solares" className="myButton mb-3" rel="noopener noreferrer">
         EXPLORAR MÁS
           </a>
         </div>
