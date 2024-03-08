@@ -1178,728 +1178,22 @@ const JackeryPresenta = () => {
             Los lúmenes son la salida de luz de la luminaria e indican el brillo de la luz. Cuanto mayor sea la clasificación de lúmenes, mayor será el brillo del foco solar para inundaciones.
           </p>
           <p>
-            Focos pequeños: 100 lúmenes<br/>
-            Focos con sensor de movimiento: 300-600 lúmenes<br/>
-            Focos exteriores de alta potencia: 1000-3000 lúmenes<br/>
+            Focos pequeños: 100 lúmenes<br />
+            Focos con sensor de movimiento: 300-600 lúmenes<br />
+            Focos exteriores de alta potencia: 1000-3000 lúmenes<br />
           </p>
           <p style={{ fontWeight: '700' }}>
-          ¿Cuánto tiempo duran los focos solares para inundaciones?
+            ¿Cuánto tiempo duran los focos solares para inundaciones?
           </p>
           <p>
-          Los focos solares LED de alta calidad pueden durar años, dependiendo de la calidad de construcción. Sin embargo, las baterías de los focos solares exteriores generalmente requieren reemplazo después de 5-6 años.
+            Los focos solares LED de alta calidad pueden durar años, dependiendo de la calidad de construcción. Sin embargo, las baterías de los focos solares exteriores generalmente requieren reemplazo después de 5-6 años.
           </p>
           <p style={{ fontWeight: '700' }}>
-          ¿Vale la pena comprar focos solares para inundaciones?
+            ¿Vale la pena comprar focos solares para inundaciones?
           </p>
           <p>
-          Aunque los focos solares para inundaciones son una gran adición para cualquier hogar o espacio exterior, no pueden igualar las capacidades de un generador solar. Jackery es uno de los principales vendedores de generadores solares, ofreciendo productos de alta calidad a un precio asequible. No solo puedes alimentar focos para inundaciones con el generador, sino que también es una solución portátil para cargar otros dispositivos exteriores.
+            Aunque los focos solares para inundaciones son una gran adición para cualquier hogar o espacio exterior, no pueden igualar las capacidades de un generador solar. Jackery es uno de los principales vendedores de generadores solares, ofreciendo productos de alta calidad a un precio asequible. No solo puedes alimentar focos para inundaciones con el generador, sino que también es una solución portátil para cargar otros dispositivos exteriores.
           </p>
-        </div>
-        <div className='NotaTitleConteiner'>
-          <p>
-          Conclusiones
-          </p>
-        </div>
-        <div className='NotaTexConteiner'>
-          <p>
-          En resumen, los electrodomésticos solares están ganando terreno en el mercado debido a que son una fuente de energía limpia y renovable. Aunque los focos solares para inundaciones te permiten eliminar las altas facturas de electricidad, las bajas temperaturas y las horas de luz solar reducidas disminuyen su eficiencia. Además, es posible que no funcionen de manera efectiva durante mal tiempo.
-          </p>
-          <p>
-          Por otro lado, un <span style={{ color: '#F28F2E' }}>generador solar</span> potente ofrece energía confiable durante largas horas. Por ejemplo, el generador solar Jackery 500 puede alimentar una amplia gama de electrodomésticos, incluyendo luces de piso, ventiladores, mini refrigeradores, etc., mientras que el generador solar Jackery 240 es una solución de carga compacta para todos los dispositivos pequeños.
-          </p>
-        </div>
-        <div className='NotaTitleConteiner'>
-          <p>
-          Acampar en hamacas 101: todo lo que necesitas saber
-          </p>
-        </div>
-        <div className='NotaTexConteiner'>
-          <p>
-          Las hamacas brindan comodidad en el patio trasero, por lo que no es sorprendente que también sean populares en campamentos. Al ser pequeñas y ligeras, puedes guardarlas fácilmente en el maletero de tu auto. Cuando se cuelgan adecuadamente, una hamaca de camping puede ser tan cómoda como tu cama.
-          </p>
-        </div>
-        <div className='NotaImgConteiner'>
-          <img src={imagen} alt='imagen' />
-        </div>
-        <div className='NotaTitleConteiner'>
-          <p>
-          ¿Qué es el campamento en hamacas?
-          </p>
-        </div>
-        <div className='NotaTexConteiner'>
-          <p>
-          El campamento en hamacas reemplaza tu tienda de campaña tradicional con una hamaca y algunos elementos valiosos, lo que te permite dormir tranquilamente al aire libre durante la noche. Debido a que las hamacas son ligeras y ocupan poco espacio en una mochila, son populares entre los viajeros y ciclistas.
-          </p>
-          <p>
-          Los campistas en hamacas también tienen una mejor vista y evitan la incomodidad de dormir en terrenos inclinados o rocosos. Todo lo que necesitas son un par de árboles robustos. Además, las hamacas son mucho más fáciles de instalar que las tiendas de campaña, por lo que ahorrarás tiempo y esfuerzo al montarlas. Una buena hamaca de camping puede mejorar tu experiencia de campamento.
-          </p>
-          <p style={{fontSize: '1.5rem'}}>
-          Campamento en hamacas vs. campamento en tiendas
-          </p>
-          <p>
-          Nada supera quedarse pacíficamente dormido mientras estás acostado bajo un manto de estrellas brillantes. ¡Excepto estar mecido para dormir en una hamaca entre las estrellas brillantes!
-          </p>
-          <p>
-          No hay mejor accesorio que una hamaca de camping para llevar tu experiencia de campamento al siguiente nivel. Solo algunos han tenido la oportunidad de acampar en una hamaca. Algunas personas necesitan estar más informadas sobre las hamacas. Algunos de estos mitos siempre han sido inexactos, pero otros se han vuelto falsos recientemente debido a los avances en la tecnología de las hamacas.
-          </p>
-          <p style={{fontSize: '1.5rem'}}>
-          Campamento en hamacas vs. campamento en tiendas
-          </p>
-          <p>
-          Muchos campistas en hamacas solo usarán una hamaca para dormir, y harán todo lo posible para defender su superioridad frente a otras opciones de descanso, incluidas sus camas en casa. Aquí hay algunas razones por las que el campamento en hamacas es tan popular:
-          </p>
-          <p>
-          <span style={{fontWeight: '700'}}>Livianas y portátiles</span>: la mayoría de las hamacas son sustancialmente más ligeras que las tiendas de campaña estándar. A diferencia de las pesadas varillas y estacas de las tiendas, las hamacas requieren correas de suspensión y la hamaca en sí.
-          </p>
-          <p>
-          <span style={{fontWeight: '700'}}>Cómodas</span>: cuando te acuestas correctamente en una hamaca, estarás exactamente nivelado con tu cuerpo apoyado por la hamaca.
-          </p>
-          <p>
-          <span style={{fontWeight: '700'}}>Fáciles de montar</span>: las hamacas se pueden montar mucho más rápido que la mayoría de las tiendas de campaña. Una vez que hayas encontrado un buen lugar, puedes llevar tu hamaca a donde quieras en pocos minutos. No tendrás que lidiar con varillas de tienda o clavar estacas en el suelo.
-          </p>
-          <p>
-          <span style={{fontWeight: '700'}}>Adecuadas para cualquier terreno</span>: debido a que las hamacas se suspenden por encima del suelo, se pueden utilizar en casi cualquier paisaje con árboles.
-          </p>
-          <p>
-          A pesar de estas ventajas, el campamento en hamacas tiene algunas desventajas. El campamento en hamacas puede no ser apropiado en todas las situaciones ni para todos los campistas. Considera las siguientes desventajas antes de decidir si es adecuado para ti:
-          </p>
-          <p>
-          <span style={{fontWeight: '700'}}>Solo para 1-2 personas</span>: las hamacas están disponibles en tamaños individuales o dobles y pueden soportar a una o dos personas simultáneamente.
-          </p>
-          <p>
-          <span style={{fontWeight: '700'}}>Sin espacio para mascotas</span>: si deseas ir de camping con tu perro, tu compañero de cuatro patas puede necesitar más espacio en tu hamaca.
-          </p>
-          <p>
-          <span style={{fontWeight: '700'}}>Menos privacidad</span>: cuando acampas en una tienda de campaña o una casa rodante, tienes tu habitación privada donde puedes cambiarte de ropa o descansar. Pero no tienes esta privacidad cuando acampas en una hamaca. Si bien tu cubierta de lluvia puede proporcionar cierta privacidad, debes cambiarte de ropa en los baños del campamento en su lugar.
-          </p>
-        </div>
-        <div className='NotaImgConteiner'>
-          <img src={imagen} alt='imagen' />
-        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <h1>----------------------------------------------------------------</h1>
-
-        <div className='NotaTitleConteiner'>
-          <p>
-            ¿Qué es un panel solar?
-          </p>
-        </div>
-        <div className='NotaTexConteiner'>
-          <p>
-            Los paneles solares utilizan la luz solar como combustible para generar energía. Cuando un rayo del solo golpea los paneles, la superficie convierte la luz solar en electricidad.
-          </p>
-        </div>
-
-        <div className='NotaImgConteiner'>
-          <img src={imagen} alt='imagen' />
-        </div>
-
-        <span style={{ color: '#F28F2E' }}></span>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <div className='NotaTexConteiner'>
-          <p>
-            Los cortes frecuentes de energía eléctrica, facturas de luz cada vez más caras y la creciente necesidad de cuidar el ambiente son algunas de las razones que conducen a las personas a recurrir a la energía solar.
-          </p>
-          <p>
-            Los paneles solares son una excelente manera de alimentar su hogar y ahorrar dinero, pero muchos tipos de paneles solares disponibles hacen que sea difícil elegir la mejor opción.
-          </p>
-        </div>
-        <div className='NotaImgConteiner'>
-          <img src={imagen} alt='imagen' />
-        </div>
-        <div className='NotaTitleConteiner'>
-          <p>
-            ¿Qué es un panel solar?
-          </p>
-        </div>
-        <div className='NotaImgConteiner'>
-          <img src={imagen} alt='imagen' />
-        </div>
-        <div className='NotaTexConteiner'>
-          <p>
-            Los <span style={{ color: '#F28F2E' }}>paneles solares</span> son células fotovoltaicas o PV que absorben los rayos del sol y los convierten en energía eléctrica. El típico panel solar está compuesto de capas de silicio, boro y fósforo.
-          </p>
-          <p>
-            La capa de boro proporciona una carga positiva, mientras que la capa de fósforo proporciona una carga negativa. La capa interna entre el boro y el fósforo es de silicio, que actúa como un semiconductor.
-          </p>
-          <p>
-            Las células de silicio liberan electrones y crean una corriente eléctrica. La corriente eléctrica liberada y almacenada en la batería se utiliza luego para alimentar dispositivos eléctricos durante cortes de energía o aventuras al aire libre.
-          </p>
-        </div>
-        <div className='NotaTitleConteiner'>
-          <p>
-            ¿Qué es un panel solar?
-          </p>
-        </div>
-        <div className='NotaTexConteiner'>
-          <p>
-            Los paneles solares utilizan la luz solar como combustible para generar energía. Cuando un rayo del solo golpea los paneles, la superficie convierte la luz solar en electricidad.
-          </p>
-          <p>
-            Los paneles solares están compuestos por células que contienen electrones: la carga negativa del boro y la carga positiva del fósforo crean un campo magnético. La luz solar que cae sobre las células desestabiliza los electrones y libera los electrones cargados negativamente. El movimiento de los electrones libres produce corriente o electricidad. Sin embargo, esta corriente eléctrica no es adecuada para los electrodomésticos del hogar. Y aquí es donde entra en juego el papel del inversor solar.
-          </p>
-          <p>
-            El inversor solar convierte la electricidad producida de CC a CA para que puedas cargar tus electrodomésticos.
-          </p>
-        </div>
-        <div className='NotaTitleConteiner'>
-          <p>
-            Los 4 tipos principales de paneles solares
-          </p>
-        </div>
-        <div className='NotaTexConteiner'>
-          <p>
-            Hay cuatro tipos principales de paneles solares: monocristalinos, policristalinos, PERC y película delgada. Dependiendo del tipo de células solares, los paneles solares se clasifican en diferentes categorías que se muestran en la tabla a continuación.
-          </p>
-          <table className='NotaTableContainer'>
-            <table>
-              <tbody>
-                <tr>
-                  <td>Parámetros</td>
-                  <td>Monocristalino</td>
-                  <td>Policristalino</td>
-                  <td>Película delgada</td>
-                  <td>PERC</td>
-                </tr>
-                <tr>
-                  <td>Costo</td>
-                  <td>Alto</td>
-                  <td>Medio</td>
-                  <td>Depende del material</td>
-                  <td>Más alto</td>
-                </tr>
-                <tr>
-                  <td>Eficiencia</td>
-                  <td>Alta</td>
-                  <td>Media</td>
-                  <td>Baja</td>
-                  <td>Más eficiente</td>
-                </tr>
-                <tr>
-                  <td>Aspecto</td>
-                  <td>Células de color negro oscuro con forma octogonal</td>
-                  <td>Células de color azul con bordes cuadrados</td>
-                  <td>Depende del material</td>
-                  <td>Células de color negro con bordes redondeados</td>
-                </tr>
-                <tr>
-                  <td>Vida útil</td>
-                  <td>25-40 años</td>
-                  <td>25-35 años</td>
-                  <td>10-20 años</td>
-                  <td>25-30 años</td>
-                </tr>
-                <tr>
-                  <td>Huella de carbono</td>
-                  <td>
-                    Baja
-                    38.1 g per kWh
-                  </td>
-                  <td>
-                    Baja
-                    27.2 g per kWh
-                  </td>
-                  <td>Más bajo</td>
-                  <td>Baja</td>
-                </tr>
-                <tr>
-                  <td>Ventajas</td>
-                  <td>Eficiente energéticamente y resistente al calor</td>
-                  <td>Asequible y menos residuos durante la fabricación</td>
-                  <td>Ligero y bajo coste de instalación</td>
-                  <td>
-                    Ocupa menos espacio y es más eficiente
-                    Desventajas
-                  </td>
-                </tr>
-                <tr>
-                  <td>Desventajas</td>
-                  <td>Caro</td>
-                  <td>Baja eficiencia energética y baja resistencia al calor</td>
-                  <td>Se degrada más rápido y es menos eficiente</td>
-                  <td>Caro</td>
-                </tr>
-              </tbody>
-            </table>
-          </table>
-        </div>
-        <div className='NotaTitleConteiner'>
-          <p>
-            Paneles solares monocristalinos
-          </p>
-        </div>
-        <div className='NotaTexConteiner'>
-          <p>
-            Más conocidos como paneles de una sola cristalina, los paneles solares monocristalinos están hechos utilizando una forma pura de cristales de silicio. El cristal se corta en múltiples obleas con forma de octágono formando células.
-          </p>
-          <p>
-            Estos paneles se construyen con la tecnología de las células Half Cut. Dentro de los paneles solares, las células de forma cuadrada se cortan para producir el doble de células.
-          </p>
-          <p>
-            Las células en las dos mitades de los paneles solares están conectadas en dos series diferentes, asegurando una generación de energía constante incluso si hay sombra en la mitad del panel.
-          </p>
-        </div>
-        <div className='NotaImgConteiner'>
-          <img src={imagen} alt='imagen' />
-        </div>
-        <div className='NotaTexConteiner'>
-          <p style={{ fontWeight: '700', fontSize: '1.2rem' }}>
-            Características de los paneles solares monocristalinos
-          </p>
-          <ul>
-            <li>
-              Como el tipo monocristalino de paneles solares está compuesto por un solo cristal de silicio, suelen tener altas tasas de conversión en comparación con otros paneles disponibles
-            </li>
-            <li>
-              Este tipo de paneles solares es un poco más caro que otros tipos debido a la complejidad del proceso de fabricación de células de silicio de un solo cristal
-            </li>
-            <li>
-              El panel solar tiene una mayor resistencia al calor que otros paneles, lo que significa que puede producir más electricidad a altas temperaturas
-            </li>
-          </ul>
-          <p style={{ fontWeight: '700', fontSize: '1.2rem' }}>
-            Ventajas
-          </p>
-          <ul>
-            <li>
-              Están hechos de la más alta calidad de cristal de silicio, lo que los convierte en una opción altamente eficiente y popular entre los propietarios de viviendas
-            </li>
-            <li>
-              Los pequeños paneles solares monocristalinos pueden producir la misma energía que las células policristalinas o de película delgada grandes
-            </li>
-            <li>
-              Tienen la vida útil más larga en comparación con otros tipos, lo que garantiza que se pueda disfrutar de la energía solar durante décadas
-            </li>
-          </ul>
-          <p style={{ fontWeight: '700', fontSize: '1.2rem' }}>
-            Desventajas
-          </p>
-          <ul>
-            <li>
-              Una gran desventaja del tipo de panel solar monocristalino es su alto costo inicial debido al pesado proceso de producción necesario para su fabricación
-            </li>
-            <li>
-              La eficiencia de los paneles solares disminuye cuando están cubiertos de nieve, hojas o suciedad
-            </li>
-          </ul>
-        </div>
-        <div className='NotaTitleConteiner'>
-          <p>
-            Paneles solares policristalinos
-          </p>
-        </div>
-        <div className='NotaTexConteiner'>
-          <p>
-            También llamados paneles multicristalinos, estos paneles solares suelen ser más baratos que los paneles monocristalinos. Esto se debe a que los fragmentos de silicio fabrican células solares en lugar de cristales de silicio puros.
-          </p>
-          <p>
-            Un proceso de fabricación sencillo reduce el costo total del panel solar. Sin embargo, en términos de espacio y conversión de energía, son menos eficientes y tienen una menor tolerancia al calor.
-          </p>
-          <p style={{ fontWeight: '700', fontSize: '1.2rem' }}>
-            Características de los paneles solares
-          </p>
-          <ul>
-            <li>
-              Están formados por múltiples cristales de silicio, por lo que hay poco espacio para el movimiento de electrones.Por eso tienen una eficiencia menor
-            </li>
-            <li>
-              En lugar de parecerse a los monocristalinos, estos tipos de paneles solares tienen células de forma cuadrada y bordes rectos
-            </li>
-            <li>
-              Como se desperdicia menos silicio durante la fabricación de los paneles y el proceso de fabricación es bastante sencillo, estos paneles son más asequibles que otros tipos
-            </li>
-          </ul>
-          <p style={{ fontWeight: '700', fontSize: '1.2rem' }}>
-            Ventajas
-          </p>
-          <ul>
-            <li>
-              En condiciones de poca luz, los cristales policristalinos son más eficientes en comparación con otros tipos
-            </li>
-            <li>
-              Son soluciones menos costosas para los propietarios de viviendas que desean cambiar a energía solar
-            </li>
-            <li>
-              Produce menos residuos durante la fabricación y ofrece el máximo rendimiento
-            </li>
-          </ul>
-          <p style={{ fontWeight: '700', fontSize: '1.2rem' }}>
-            Desventajas
-          </p>
-          <ul>
-            <li>
-              Son menos duraderos que otros tipos de paneles solares
-            </li>
-            <li>
-              Los paneles son más grandes, por lo que pueden ocupar más espacio en el hogar para producir la misma cantidad de electricidad
-            </li>
-          </ul>
-        </div>
-        <div className='NotaTitleConteiner'>
-          <p>
-            Paneles solares de película delgada
-          </p>
-        </div>
-        <div className='NotaTexConteiner'>
-          <p>
-            Los paneles solares de película delgada tienen calificaciones de eficiencia más bajas, por lo que generalmente se utilizan en instalaciones solares de servicios públicos o industriales a gran escala.
-          </p>
-          <p>
-            Se producen depositando una capa de sustancia fotovoltaica, como el seleniuro de indio, galio y cobre (CIGS), silicio amorfo (a-Si) o telururo de cadmio (CdTe), sobre vidrio.
-          </p>
-          <p>
-            Aunque cada material crea un panel solar diferente, todos caen dentro de las células solares de película delgada.
-          </p>
-          <p style={{ fontWeight: '700', fontSize: '1.2rem' }}>
-            Características de los paneles de película delgada
-          </p>
-          <ul>
-            <li>
-              El coeficiente de temperatura de los paneles de película fina es de aproximadamente - 0,2% por C, lo que significa que pueden soportar mejor el calor que los tipos de panel mono y poli
-            </li>
-            <li>
-              Al ser más fáciles de instalar sin ningún tipo de equipamiento, el costo de los paneles de película fina es mucho menor
-            </li>
-            <li>
-              Estos tipos de paneles solares son atractivos y tienen menos cableado y barras colectoras
-            </li>
-            <li>
-              A menudo se denominan células solares de segunda y tercera generación ya que se fabrican mezclando distintos materiales
-            </li>
-          </ul>
-          <p style={{ fontWeight: '700', fontSize: '1.2rem' }}>
-            Ventajas
-          </p>
-          <ul>
-            <li>
-              La producción de tipos de paneles solares delgados es más rápida y sencilla que las células solares de primera generación, lo que lo hace rentable
-            </li>
-            <li>
-              Puede resistir altas temperaturas en días soleados y brillantes
-            </li>
-            <li>
-              Pesa menos en comparación con los paneles monocristalinos y policristalinos
-            </li>
-          </ul>
-          <p style={{ fontWeight: '700', fontSize: '1.2rem' }}>
-            Desventajas
-          </p>
-          <ul>
-            <li>
-              El cadmio en CdTe es altamente tóxico y puede dañar la salud humana si se inhala o ingiere
-            </li>
-            <li>
-              Algunos metales presentes en GaAs, CdTe y CIGS son raros, lo que dificulta a los fabricantes producir grandes cantidades de células delgadas
-            </li>
-            <li>
-              En comparación con los paneles mono y poli, estos paneles solares tienen la vida útil más corta
-            </li>
-          </ul>
-        </div>
-        <div className='NotaTitleConteiner'>
-          <p>
-            Paneles solares PERC
-          </p>
-        </div>
-        <div className='NotaTexConteiner'>
-          <p>
-            La célula trasera y emisora pasivada (células PERC) es una nueva tecnología que consiste en añadir una capa de pasivación a la superficie trasera de la célula. La última tecnología en paneles solares PERC aumenta la cantidad de radiación solar absorbida al reflejar la luz de nuevo en la célula.
-          </p>
-          <p>
-            La captación de energía es alta en los paneles PERC, por lo que son ideales para espacios limitados. Sin embargo, son un poco caros en comparación con los paneles solares tradicionales.
-          </p>
-          <p style={{ fontWeight: '700', fontSize: '1.2rem' }}>
-            Características de los paneles solares PERC
-          </p>
-          <ul>
-            <li>
-              Debido a la capa de preservación, estos tipos de paneles solares son altamente eficientes, incluso más que los monocristalinos
-            </li>
-            <li>
-              Son capaces de funcionar bien tanto en ambientes de alta temperatura como de baja luminosidad
-            </li>
-            <li>
-              Los paneles solares PERC permiten obtener la misma potencia con menos paneles
-            </li>
-          </ul>
-          <p style={{ fontWeight: '700', fontSize: '1.2rem' }}>
-            Ventajas
-          </p>
-          <ul>
-            <li>
-              Una capa exterior adicional añade protección, lo que los hace más eficientes
-            </li>
-            <li>
-              Tienen la mayor potencia nominal en comparación con el resto de paneles solares disponibles
-            </li>
-          </ul>
-          <p style={{ fontWeight: '700', fontSize: '1.2rem' }}>
-            Desventajas
-          </p>
-          <ul>
-            <li>
-              En comparación con los paneles tradicionales, los paneles PERC son ligeramente más caros
-            </li>
-          </ul>
-        </div>
-        <div className='NotaTitleConteiner'>
-          <p>
-            Otros tipos de paneles solares
-          </p>
-        </div>
-        <div className='NotaTexConteiner'>
-          <p>
-            Además de los tipos comunes de paneles solares, existen algunas células solares menos conocidas, incluyendo:
-          </p>
-          <p style={{ fontWeight: '700', fontSize: '1.5rem' }}>
-            Paneles solares bifaciales
-          </p>
-          <p>
-            Como su nombre indica, las células solares bifaciales pueden absorber luz en ambos lados y convertirla en energía. La parte posterior del panel absorbe la luz que se refleja desde el suelo. Se puede considerar la colocación de un espejo detrás de estos paneles para obtener una producción máxima de electricidad.
-          </p>
-          <p>
-            Los estudios revelan que los modelos bifaciales pueden producir entre un 10% y un 20% más de energía que los paneles tradicionales o monocristalinos. No obstante, la eficiencia tiene un costo: tendrás que pagar casi un 15% más que los paneles solares monocristalinos por una mayor eficiencia y potencia.
-          </p>
-          <p style={{ fontWeight: '700', fontSize: '1.5rem' }}>
-            Paneles solares transparentes
-          </p>
-          <p>
-            Funcionan como un panel normal, pero con una transparencia ligera o total. Es importante tener en cuenta que estos paneles solares son más adecuados para contextos comerciales que residenciales. Además, no son portátiles, lo que los hace menos adecuados para aventureros al aire libre.
-          </p>
-          <p style={{ fontWeight: '700', fontSize: '1.5rem' }}>
-            Tejas solares
-          </p>
-          <p>
-            Las tejas solares funcionan con el mismo concepto: ayudan a convertir la luz solar en electricidad. La estética atractiva es la única razón por la que la gente elige tejas solares en lugar de paneles solares.
-          </p>
-          <p>
-            Pero antes de invertir en tejas solares, ten en cuenta que pueden costarte el doble que los paneles solares. Además, son menos eficientes a la hora de convertir la luz solar en electricidad.
-          </p>
-        </div>
-        <div className='NotaTitleConteiner'>
-          <p>
-            ¿Cómo clasificar los tipos de paneles solares?
-          </p>
-        </div>
-        <div className='NotaTexConteiner'>
-          <p>
-            No todos los paneles son iguales cuando hablamos de eficiencia, rendimiento, costes y otros factores.
-          </p>
-          <p style={{ fontWeight: '700', fontSize: '1.2rem' }}>
-            Tipos de paneles solares según su eficiencia
-          </p>
-          <p>
-            La eficiencia es uno de los factores decisivos más importantes a la hora de elegir un tipo de panel solar. La eficiencia varía en función del panel solar que elija.
-          </p>
-          <ul>
-            <li>
-              Los paneles monocristalinos tienen una eficiencia del 20% (superior a todos los demás disponibles)
-            </li>
-            <li>
-              La eficiencia de los paneles policristalinos se sitúa entre el 15 y el 17%
-            </li>
-            <li>
-              Los paneles PERC tienen la mayor eficiencia (casi un 15-20% general y un 5% extra debido a la capa de pasivación)
-            </li>
-            <li>
-              La eficiencia de los paneles solares de capa fina se sitúa entre el 6-15%, dependiendo del material utilizado
-            </li>
-          </ul>
-          <p style={{ fontWeight: '700', fontSize: '1.5rem' }}>
-            Tipos de paneles solares según su eficiencia
-          </p>
-          <p>
-            La capacidad energética depende de cuánta energía puede producir el panel solar durante las horas punta.
-          </p>
-          <ul>
-            <li>
-              Las células solares monocristalinas tienen la mayor capacidad de potencia debido a su construcción monocristalina. Si elige paneles monocristalinos, puede esperar una potencia de hasta 300 W o más
-            </li>
-            <li>
-              Las policristalinas son una dura competencia para las monocristalinas, con una potencia de entre 240 y 300 W
-            </li>
-            <li>
-              Al igual que la eficiencia, la potencia de los paneles solares de capa fina depende del material utilizado y del tamaño del panel. Por lo general, las láminas delgadas producen menos potencia que los paneles monocristalinos y policristalinos
-            </li>
-            <li>
-              Los paneles solares PERC son más eficientes y absorben más luz solar que otros tipos debido a su capa adicional
-            </li>
-          </ul>
-          <p style={{ fontWeight: '700', fontSize: '1.5rem' }}>
-            Tipos de paneles solares por aspecto
-          </p>
-          <p>
-            A continuación se desglosan las diferencias de aspecto entre los distintos tipos de paneles solares.
-          </p>
-          <ul>
-            <li>
-              Los paneles monocristalinos tienen un aspecto negro sólido y un diseño elegante. Los tamaños y formas perfectos e iguales de las células solares les confieren un aspecto organizado y atractivo a la vista
-            </li>
-            <li>
-              Los paneles policristalinos, en cambio, tienen un aspecto azul jaspeado. Cada célula o panel individual tendrá una forma diferente a los demás, lo que le dará un aspecto desorganizado
-            </li>
-            <li>
-              Los paneles de capa fina tienen un aspecto totalmente negro y limpio, con un diseño delgado. El menor número de cables y barras colectoras le confiere un aspecto despejado y elegante
-            </li>
-            <li>
-              Los paneles PERC tienen una forma negra uniforme, lo que les da un buen aspecto
-            </li>
-          </ul>
-          <p style={{ fontWeight: '700', fontSize: '1.5rem' }}>
-            Tipos de paneles solares por costo
-          </p>
-          <p>
-            Si estás listo para ir al solar, la comprensión de los costos asociados con la compra de paneles solares es fundamental.
-          </p>
-          <p>
-            Los paneles monocristalinos tienen un precio elevado debido al complejo proceso de fabricación que consiste en combinar el cristal de silicio de mayor calidad. Pueden costar entre 884,96 y 1769,92 pesos chilenos por vatio.
-          </p>
-          <p>
-            A diferencia de los monocristalinos, los policristalinos no utilizan un único cristal de silicio puro. En su lugar, utiliza restos de fragmentos de cristal que abaratan el coste de producción. Tendrás que pagar entre 619,47 y 884,96 pesos chilenos por vatio por los paneles policristalinos.
-          </p>
-          <p>
-            Entre todos los paneles solares de capa fina, el CIGS es el más caro, seguido del CdTe y el a-Si. La naturaleza ligera y flexible de los paneles solares reduce los costos de mano de obra. Para obtener células de capa fina, hay que pagar entre 380,53 y 61947,20 pesos chilenos por vatio.
-          </p>
-          <p>
-            Por PERC, los propietarios deben pagar alrededor de 302,13 - 660,92 pesos chilenos por vatio.
-          </p>
-          <p>
-            <span style={{ fontWeight: '700' }}>Nota</span> - Esta es la estimación general de costos para cada tipo. El gasto exacto relacionado con los paneles solares dependerá de otros factores como la marca, los requisitos de electricidad, el tamaño, etc.
-          </p>
-        </div>
-        <div className='NotaTitleConteiner'>
-          <p>
-            ¿Cómo elegir los tipos de paneles solares?
-          </p>
-        </div>
-        <div className='NotaTexConteiner'>
-          <p>
-            Más allá del costo y la eficiencia de los paneles solares, algunos factores influyen en la elección de los paneles solares.
-          </p>
-          <p style={{ fontWeight: '700', paddingLeft: '2rem' }}>
-            Índice de granizo
-          </p>
-          <p>
-            Si la zona donde vives es propensa al granizo o a la nieve, es mejor buscar un panel solar que pueda soportar el impacto del granizo sin sufrir daños. Los paneles monocristalinos y policristalinos se fabrican con materiales gruesos. Por lo tanto, son una opción fiable para los propietarios de viviendas que viven en zonas propensas al granizo.
-          </p>
-          <p style={{ fontWeight: '700', paddingLeft: '2rem' }}>
-            Degradación inducida por la luz (LID)
-          </p>
-          <p>
-            La degradación inducida por la luz, o LID, es la degradación del panel solar que se produce durante las primeras horas de exposición al sol. Cuanto mayor sea la tasa de LID de un panel solar, menor será su calidad. Por lo tanto, es preferible elegir un panel solar con un LID inferior al 3% para obtener el máximo rendimiento.
-          </p>
-          <p style={{ fontWeight: '700', paddingLeft: '2rem' }}>
-            Coeficiente de temperatura
-          </p>
-          <p>
-            La generación de electricidad y la temperatura de los paneles solares están relacionadas entre sí. Asegúrate de comprobar el coeficiente de temperatura del panel solar antes de realizar la compra. Debe oscilar entre -0,2% °C y -0,5% °C, para obtener la máxima potencia.
-          </p>
-        </div>
-        <div className='NotaTitleConteiner'>
-          <p>
-            Los mejores paneles solares con Jackery
-          </p>
-        </div>
-        <div className='NotaTexConteiner'>
-          <p>
-            Elegir los paneles solares adecuados con un montón de opciones disponibles puede ser un reto. ¡Pero ya no más! Jackery te trae la mejor solución para aprovechar la energía del sol y cargar todos tus aparatos eléctricos.
-          </p>
-          <p>
-            Los paneles solares portátiles Jackery SolarSaga son fáciles de transportar y tienen la mayor eficiencia del 25%. Para maximizar la producción de electricidad, puedes combinarlo con las centrales eléctricas móviles recargables Jackery.
-          </p>
-        </div>
-        <div className='NotaImgConteiner'>
-          <img src={imagen} alt='imagen' />
-        </div>
-        <div className='NotaTexConteiner'>
-          <p>
-            <span style={{ color: '#F28F2E' }}>Paneles Solares Jackery SolarSaga 100W</span>
-          </p>
-          <p>
-            Jackery SolarSaga 100W es el más adecuado para cortes de energía inesperados. Además, el mango plegable, ligero y fácil de llevar hace que sea la elección perfecta para los aventureros al aire libre. Gracias a la tecnología de células de múltiples capas y células solares de silicio monocristalino, los paneles solares funcionan mejor con una alta eficiencia de conversión del 23.7%
-          </p>
-        </div>
-        <ul>
-          <li>
-            La carcasa laminada con ETFE, la calidad de resistencia al agua IP65 y las cremalleras de bolsillo de las células solares lo hacen duradero y aumentan su vida útil
-          </li>
-          <li>
-            La bolsa de almacenamiento con el kit de paneles solares SolarSaga 100W almacena y protege los puertos y cables de golpes y polvo
-          </li>
-          <li>
-            Los paneles solares avanzados vienen con un diseño plegable, asa de goma y tamaño compacto para facilitar su transporte
-          </li>
-          <li>
-            Es compatible con las estaciones de energía Jackery Explorer 500/1000/1500 Pro
-          </li>
-        </ul>
-        <div className='NotaTitleConteiner'>
-          <p>
-            Preguntas frecuentes sobre los tipos de paneles solares
-          </p>
-        </div>
-        <div className='NotaTexConteiner'>
-          <p>
-            Los paneles solares monocristalinos son la mejor opción para la mayoría de los sistemas de energía solar residenciales. Sin embargo, si todavía no estás convencido acerca de la elección, la siguiente información puede ayudarte en tu elección.
-          </p>
-          <p style={{ fontWeight: '700', fontSize: '1.2rem' }}>
-            ¿Cuánto duran los paneles solares monocristalinos Jackery?
-          </p>
-          <p>
-            Los paneles solares monocristalinos Jackery pueden durar mucho tiempo si están bien mantenidos. La solución solar de mayor calidad puede durar más de 25 años si se combina con centrales solares explorer.
-          </p>
-          <p style={{ fontWeight: '700', fontSize: '1.2rem', paddingLeft: '2rem' }}>
-            ¿Cuál es el tipo de panel solar más eficiente?
-          </p>
-          <p>
-            El tipo de panel solar monocristalino es el más eficiente, con índices de entre el 17% y el 25%. Como las moléculas de silicio están debidamente alineadas en el panel solar, convierten la energía solar en electricidad más rápidamente.
-          </p>
-          <p style={{ fontWeight: '700', fontSize: '1.2rem', paddingLeft: '2rem' }}>
-            ¿Cuál es el tipo de panel solar más barato?
-          </p>
-          <p>
-            Entre todos los paneles solares que se venden comercialmente, los de capa fina son los más baratos. Esto se debe a que su proceso de fabricación es sencillo y requiere menos materiales. No obstante, estos paneles también suelen ser los menos eficientes.
-          </p>
-          <p style={{ fontWeight: '700', fontSize: '1.2rem', paddingLeft: '2rem' }}>
-            ¿Cómo aprovechar al máximo los paneles solares Jackery?
-          </p>
-          <p>
-            Los paneles solares Jackery utilizan células solares de silicio monocristalino, que proporcionan una mayor tasa de conversión del 24,3%. Considera la posibilidad de acoplar el <span style={{ color: '#F28F2E' }}>panel solar Jackery</span> con un generador solar para mejorar la capacidad de generación de energía.
-          </p>
-          <ul>
-            <li>
-              Los paneles solares Jackery SolarSaga de 100W y las centrales eléctricas Explorer pueden ser una excelente opción para alimentar todos los electrodomésticos y disfrutar de acampadas u otras aventuras al aire libre
-            </li>
-          </ul>
-          <div className='NotaImgConteiner'>
-            <img src={imagen} alt='imagen' />
-          </div>
         </div>
         <div className='NotaTitleConteiner'>
           <p>
@@ -1908,10 +1202,288 @@ const JackeryPresenta = () => {
         </div>
         <div className='NotaTexConteiner'>
           <p>
-            Considera invertir en los <span style={{ color: '#F28F2E' }}>paneles solares Jackery SolarSaga</span>. Son altamente eficientes y superan a otros paneles solares disponibles en el mercado.
+            En resumen, los electrodomésticos solares están ganando terreno en el mercado debido a que son una fuente de energía limpia y renovable. Aunque los focos solares para inundaciones te permiten eliminar las altas facturas de electricidad, las bajas temperaturas y las horas de luz solar reducidas disminuyen su eficiencia. Además, es posible que no funcionen de manera efectiva durante mal tiempo.
           </p>
           <p>
-            Entonces, ¿qué estás esperando? Conviértete a la energía solar con la combinación de paneles solares de la más alta calidad y una estación de energía portátil.
+            Por otro lado, un <span style={{ color: '#F28F2E' }}>generador solar</span> potente ofrece energía confiable durante largas horas. Por ejemplo, el generador solar Jackery 500 puede alimentar una amplia gama de electrodomésticos, incluyendo luces de piso, ventiladores, mini refrigeradores, etc., mientras que el generador solar Jackery 240 es una solución de carga compacta para todos los dispositivos pequeños.
+          </p>
+        </div>
+        <div className='NotaTitleConteiner'>
+          <p>
+            Acampar en hamacas 101: todo lo que necesitas saber
+          </p>
+        </div>
+        <div className='NotaTexConteiner'>
+          <p>
+            Las hamacas brindan comodidad en el patio trasero, por lo que no es sorprendente que también sean populares en campamentos. Al ser pequeñas y ligeras, puedes guardarlas fácilmente en el maletero de tu auto. Cuando se cuelgan adecuadamente, una hamaca de camping puede ser tan cómoda como tu cama.
+          </p>
+        </div>
+        <div className='NotaImgConteiner'>
+          <img src={imagen} alt='imagen' />
+        </div>
+        <div className='NotaTitleConteiner'>
+          <p>
+            ¿Qué es el campamento en hamacas?
+          </p>
+        </div>
+        <div className='NotaTexConteiner'>
+          <p>
+            El campamento en hamacas reemplaza tu tienda de campaña tradicional con una hamaca y algunos elementos valiosos, lo que te permite dormir tranquilamente al aire libre durante la noche. Debido a que las hamacas son ligeras y ocupan poco espacio en una mochila, son populares entre los viajeros y ciclistas.
+          </p>
+          <p>
+            Los campistas en hamacas también tienen una mejor vista y evitan la incomodidad de dormir en terrenos inclinados o rocosos. Todo lo que necesitas son un par de árboles robustos. Además, las hamacas son mucho más fáciles de instalar que las tiendas de campaña, por lo que ahorrarás tiempo y esfuerzo al montarlas. Una buena hamaca de camping puede mejorar tu experiencia de campamento.
+          </p>
+          <p style={{ fontSize: '1.5rem' }}>
+            Campamento en hamacas vs. campamento en tiendas
+          </p>
+          <p>
+            Nada supera quedarse pacíficamente dormido mientras estás acostado bajo un manto de estrellas brillantes. ¡Excepto estar mecido para dormir en una hamaca entre las estrellas brillantes!
+          </p>
+          <p>
+            No hay mejor accesorio que una hamaca de camping para llevar tu experiencia de campamento al siguiente nivel. Solo algunos han tenido la oportunidad de acampar en una hamaca. Algunas personas necesitan estar más informadas sobre las hamacas. Algunos de estos mitos siempre han sido inexactos, pero otros se han vuelto falsos recientemente debido a los avances en la tecnología de las hamacas.
+          </p>
+          <p style={{ fontSize: '1.5rem' }}>
+            Campamento en hamacas vs. campamento en tiendas
+          </p>
+          <p>
+            Muchos campistas en hamacas solo usarán una hamaca para dormir, y harán todo lo posible para defender su superioridad frente a otras opciones de descanso, incluidas sus camas en casa. Aquí hay algunas razones por las que el campamento en hamacas es tan popular:
+          </p>
+          <p>
+            <span style={{ fontWeight: '700' }}>Livianas y portátiles</span>: la mayoría de las hamacas son sustancialmente más ligeras que las tiendas de campaña estándar. A diferencia de las pesadas varillas y estacas de las tiendas, las hamacas requieren correas de suspensión y la hamaca en sí.
+          </p>
+          <p>
+            <span style={{ fontWeight: '700' }}>Cómodas</span>: cuando te acuestas correctamente en una hamaca, estarás exactamente nivelado con tu cuerpo apoyado por la hamaca.
+          </p>
+          <p>
+            <span style={{ fontWeight: '700' }}>Fáciles de montar</span>: las hamacas se pueden montar mucho más rápido que la mayoría de las tiendas de campaña. Una vez que hayas encontrado un buen lugar, puedes llevar tu hamaca a donde quieras en pocos minutos. No tendrás que lidiar con varillas de tienda o clavar estacas en el suelo.
+          </p>
+          <p>
+            <span style={{ fontWeight: '700' }}>Adecuadas para cualquier terreno</span>: debido a que las hamacas se suspenden por encima del suelo, se pueden utilizar en casi cualquier paisaje con árboles.
+          </p>
+          <p>
+            A pesar de estas ventajas, el campamento en hamacas tiene algunas desventajas. El campamento en hamacas puede no ser apropiado en todas las situaciones ni para todos los campistas. Considera las siguientes desventajas antes de decidir si es adecuado para ti:
+          </p>
+          <p>
+            <span style={{ fontWeight: '700' }}>Solo para 1-2 personas</span>: las hamacas están disponibles en tamaños individuales o dobles y pueden soportar a una o dos personas simultáneamente.
+          </p>
+          <p>
+            <span style={{ fontWeight: '700' }}>Sin espacio para mascotas</span>: si deseas ir de camping con tu perro, tu compañero de cuatro patas puede necesitar más espacio en tu hamaca.
+          </p>
+          <p>
+            <span style={{ fontWeight: '700' }}>Menos privacidad</span>: cuando acampas en una tienda de campaña o una casa rodante, tienes tu habitación privada donde puedes cambiarte de ropa o descansar. Pero no tienes esta privacidad cuando acampas en una hamaca. Si bien tu cubierta de lluvia puede proporcionar cierta privacidad, debes cambiarte de ropa en los baños del campamento en su lugar.
+          </p>
+        </div>
+        <div className='NotaImgConteiner'>
+          <img src={imagen} alt='imagen' />
+        </div>
+        <div className='NotaTexConteiner'>
+          <p style={{ fontSize: '1.5rem' }}>
+            Equipo para acampar en hamacas: qué empacar
+          </p>
+          <p>
+            Dado que no llevarás una tienda de campaña, es probable que tengas más espacio para llevar algunos elementos esenciales, y quizás un poco más. Querrás contar con equipo valioso para hacer que tu experiencia de acampada en hamacas sea placentera.
+          </p>
+          <p>
+            El éxito del campamento en hamacas depende de lo que empacas y de qué tan eficazmente montas tu campamento. Si tienes garantizado un clima seco y cálido en verano, puedes viajar ligero solo con tu hamaca. ¡Aunque necesitarás más accesorios en invierno!
+          </p>
+          <p>
+            <span style={{ fontWeight: '700' }}>Sistema de hamaca</span>: incluye una hamaca, suspensión, red antiinsectos, lona y manta.
+          </p>
+          <p>
+            <span style={{ fontWeight: '700' }}>Mochila o bolso</span>: necesitarás una bolsa para guardar todo.
+          </p>
+          <p>
+            <span style={{ fontWeight: '700' }}>Higiene y artículos de aseo</span>: mantente limpio y cómodo en exteriores.
+          </p>
+          <p>
+            <span style={{ fontWeight: '700' }}>Utensilios de cocina</span>: reúne todos los utensilios de cocina necesarios y alimentos.
+          </p>
+          <p>
+            <span style={{ fontWeight: '700' }}>Kit de emergencia</span>: imprescindible para cualquier lugar en caso de un accidente.
+          </p>
+          <p>
+            <span style={{ fontWeight: '700' }}>Generador solar Jackery</span>:  alimenta todos tus electrodomésticos al aire libre
+          </p>
+          <p>
+            Cuando acampes en hamacas, necesitarás una forma de cargar tu laptop, celular, luces y otros dispositivos electrónicos. Los generadores solares son la mejor alternativa para el campamento en hamacas, sin importar cuánto tiempo deseas quedarte. Los generadores solares convierten la luz solar en electricidad y la almacenan para su uso posterior, lo que permite utilizar generadores siempre que haya luz solar. Además, a diferencia del gas, la gasolina u otros recursos, la energía solar es limpia e inagotable.
+          </p>
+          <p>
+            Dado que proporcionan electricidad limpia, los generadores solares Jackery deberían ser tu primera elección para el campamento en hamacas. Son ideales para acampar en entornos naturales donde el uso de gas para cocinar o encender luces afecta la ecología global y local.
+          </p>
+        </div>
+        <div className='NotaImgConteiner'>
+          <img src={imagen} alt='imagen' />
+        </div>
+        <div className='NotaTexConteiner'>
+          <p>
+            Los generadores solares Jackery cuentan con todos los componentes necesarios para la electricidad solar. Son portátiles y fáciles de transportar, a diferencia de los kits que cablean una casa o una casa rodante. Se pueden combinar con paneles solares portátiles que se pliegan cuando no están en uso. Además, hay varias formas de recargar la estación de energía. Si bien los paneles solares son la opción más respetuosa con el medio ambiente para recargar, también puedes utilizar la red eléctrica cuando el clima no coopere.
+          </p>
+          <p>
+            Con una capacidad de 518Wh, el generador solar Jackery 500 es uno de los generadores de batería de litio recargable más portátiles y ligeros del mercado, lo que lo hace ideal para el campamento en hamacas. Tiene una toma de corriente alterna (AC) de 500 vatios con onda sinusoidal pura que proporciona energía constante a varios artículos de campamento en hamacas que funcionan con corriente alterna, como una lámpara, cafetera, licuadora pequeña, enfriador miniatura, y más.
+          </p>
+        </div>
+        <div className='NotaImgConteiner'>
+          <img src={imagen} alt='imagen' />
+        </div>
+        <div className='NotaTexConteiner'>
+          <p>
+            El generador solar Jackery 500 combina la Estación de Energía Portátil Explorer 500 con los paneles solares <span style={{ color: '#F28F2E' }}>SolarSaga 100W</span>. El Explorer 500 es una estación de energía portátil con tres puertos USB, una toma de corriente alterna (AC) y una salida de 12V para automóviles. La tecnología profesional MPPT acelera las tasas de recarga solar. Los paneles solares SolarSaga 100W pueden recargar el Explorer 500 en 9.5 horas. Los paneles solares SolarSaga 100W también ofrecen una alta eficiencia de conversión de hasta el 24.3%.
+          </p>
+        </div>
+        <table className='NotaTableContainer'>
+          <tbody>
+            <tr>
+              <td style={{ fontWeight: '700' }}>Serie</td>
+              <td style={{ fontWeight: '700' }}>Capacidad</td>
+              <td style={{ fontWeight: '700' }}>Puertos</td>
+              <td style={{ fontWeight: '700' }}>Tiempo de recarga</td>
+              <td style={{ fontWeight: '700' }}>Electrodomésticos para acampar</td>
+            </tr>
+            <tr>
+              <td style={{ color: '#F28F2E' }}>Jackery Solar Generator 500</td>
+              <td>518Wh</td>
+              <td>
+                - Salida USB-A: 3<br />
+                - Salida DC: 2<br />
+                - Puerto para automóvil: 1<br />
+                - Salida AC: 1<br />
+              </td>
+              <td>
+                - SolarSaga 100W: 9 horas<br />
+                - Carga de pared: 6,5 horas<br />
+                - Carga de automóvil: 7.5 horas<br />
+              </td>
+              <td>
+                - Luz (5W) 45 horas<br />
+                - GPS (50W) 8,8 horas<br />
+                - Teléfono (29W) 53 cargas<br />
+                - Dron (60W) 9 cargas<br />
+                - Mini nevera (60W) 9 horas<br />
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div className='NotaTexConteiner'>
+          <p style={{ fontSize: '1.5rem' }}>
+            Guía de hamacas: cómo elegir
+          </p>
+          <p>
+            <span style={{ fontWeight: '700' }}>Sistema de suspensión</span>: el sistema de suspensión es uno de los componentes más críticos de un sistema de sueño en hamaca. Los mejores métodos de suspensión son ajustables, lo que te permite afinar la hamaca después de suspenderla de los árboles cercanos. Los dispositivos de suspensión ajustables más comunes son las cuerdas whoopie y las correas daisy chain.
+          </p>
+          <p>
+            <span style={{ fontWeight: '700' }}>Línea de cresta</span>: una línea de cresta es un fino cordón que une los dos extremos de la hamaca. Se extiende por encima de la hamaca de la cabeza a los pies. Algunas hamacas tienen una línea de cresta incorporada, mientras que otras requieren que traigas la tuya propia.
+          </p>
+          <p>
+            <span style={{ fontWeight: '700' }}>Toldo</span>: se recomienda encarecidamente un toldo para una hamaca. Sin importar cuán remota sea la posibilidad, querrás tener un toldo cerca para protegerte del viento, la lluvia y la nieve.
+          </p>
+          <p>
+            <span style={{ fontWeight: '700' }}>Colcha</span>: puedes dormir en una hamaca, envuelto en tu saco de dormir. La presión de acostarse sobre tu saco de dormir lo comprime, lo que reduce su capacidad para mantenerte caliente.
+          </p>
+          <p>
+            <span style={{ fontWeight: '700' }}>Red para insectos</span>: no deberías necesitar una red para insectos en clima frío. Sin embargo, cuando los insectos están en abundancia durante la primavera, una red para insectos es imprescindible. Un tejido a prueba de insectos es estándar en las tiendas de campaña pero no en las hamacas.
+          </p>
+        </div>
+        <div className='NotaTexConteiner'>
+          <p style={{ fontSize: '1.5rem' }}>
+            Configuración de acampada en hamaca: cómo empezar
+          </p>
+          <p>
+            Una tienda de hamaca es una combinación de una hamaca y una tienda. Por lo general, consta de una hamaca, un sistema de suspensión, una red para insectos y un toldo para protección contra la lluvia para colgar todo. Además de proporcionar refugio, esta estructura es excepcionalmente resistente y ligera, lo que te permite empacarla y llevarla contigo mientras exploras la naturaleza.
+          </p>
+        </div>
+        <div className='NotaImgConteiner'>
+          <img src={imagen} alt='imagen' />
+        </div>
+        <div className='NotaTexConteiner'>
+          <p>
+            Ahora que comprendes los fundamentos de montar una hamaca de campamento, aquí tienes algunos consejos para ayudarte a aprovechar al máximo tu experiencia de acampada en hamaca:
+          </p>
+          <p>
+            <span style={{ fontWeight: '700' }}>Elige el lugar adecuado</span>: al decidir dónde colocar tu hamaca, es fundamental elegir dos árboles que estén a la distancia adecuada. La regla básica es que los árboles deben estar separados aproximadamente entre 15 y 20 pies.
+          </p>
+          <p>
+            <span style={{ fontWeight: '700' }}>Ángulo de 30 grados</span>: una hamaca demasiado plana o doblada es incómoda. Las correas deben estar inclinadas a un ángulo de aproximadamente 30 grados hacia el árbol. El punto más bajo de la hamaca no debe estar a más de 18 pulgadas del suelo.
+          </p>
+          <p>
+            <span style={{ fontWeight: '700' }}>Configura la línea de cresta</span>: lleva un trozo de cable más largo que tu hamaca y con suficiente longitud adicional para asegurarlo alrededor de ambos puntos de anclaje de la hamaca. La altura de la línea de cresta puede variar, pero es mejor que sea más baja cuando existe la probabilidad de lluvia impulsada por el viento. En clima tranquilo, algunas personas elevan la línea de cresta para poder pararse bajo su cubierta contra la lluvia.
+          </p>
+          <p>
+            <span style={{ fontWeight: '700' }}>Configura la red para insectos</span>: muchas versiones se enganchan a la correa de tu hamaca en un extremo; luego, desengancha la hamaca y desliza la red sobre ella. Asegura la red a la correa de la hamaca en el otro extremo después de extenderla por completo.
+          </p>
+          <p style={{ fontSize: '1.5rem' }}>
+            Cómo dormir en una hamaca
+          </p>
+          <p>
+            Para empezar, no cuelgues la hamaca demasiado tensa. Muchos novatos creen que esta es una técnica conocida para acostarse más plano, pero esto no es cierto. La hamaca se ajustará aún más apretadamente alrededor de ti, lo que hará imposible dormir en diagonal.
+            Luego, duerme en diagonal y en una forma curvada como una banana, para evitar el "apretón de hombros" que causa dolor de espalda. Considera acostarte en un ángulo de 30 grados desde cada lado de la hamaca.
+          </p>
+        </div>
+        <div className='NotaTitleConteiner'>
+          <p>
+            Consejos para acampar en hamaca
+          </p>
+        </div>
+        <div className='NotaTexConteiner'>
+          <p>
+            Aquí tienes algunos consejos para ayudarte a tener una mejor experiencia de acampada en hamaca y evitar problemas.
+          </p>
+          <p>
+            <span style={{ fontWeight: '700' }}>Verifica los peligros ocultos</span>: árboles muertos y demasiado delgados para soportar peso son ejemplos de peligros ocultos. Los árboles deben estar vivos y ser lo suficientemente gruesos como para que no puedas rodearlos completamente con las manos.
+          </p>
+          <p>
+            <span style={{ fontWeight: '700' }}>Investiga el camping</span>: ya sea que vayas a un sitio de acampada gratuito en Chile o a uno de pago, investiga el camping antes de ir. Verifica si el camping tiene regulaciones o restricciones sobre la acampada en hamaca.
+          </p>
+          <p>
+            <span style={{ fontWeight: '700' }}>Mantén tus pertenencias cerca de ti</span>: lleva una pequeña bolsa con tus necesidades nocturnas dentro de tu hamaca contigo. Otra alternativa es guardar objetos que cuelgue debajo de tu hamaca y esté al alcance de tu mano.
+          </p>
+        </div>
+        <div className='NotaTitleConteiner'>
+          <p>
+            Preguntas frecuentes sobre acampar en hamaca
+          </p>
+        </div>
+        <div className='NotaTexConteiner'>
+          <p>
+            A continuación, se presentan las preguntas frecuentes sobre el acampar en hamaca:
+          </p>
+          <p style={{ paddingLeft: '2rem', fontWeight: '700' }}>
+            ¿Vale la pena acampar en hamaca?
+          </p>
+          <p>
+            La razón principal para adquirir una hamaca de acampar es la comodidad. Dormir en una hamaca suspendida evita estar en el suelo frío, raíces de árboles, piedras y otras cosas desagradables.
+          </p>
+          <p style={{ paddingLeft: '2rem', fontWeight: '700' }}>
+            ¿Qué tamaño de generador solar necesito para acampar en hamaca?
+          </p>
+          <p>
+            Tener un generador solar es imprescindible si se decide acampar en hamaca, ya que te permite alimentar tus electrodomésticos de campamento con energía renovable y es una fuente de energía de respaldo en caso de emergencia. Debido a su durabilidad, portabilidad y seguridad, los generadores solares Jackery son la alternativa ideal.
+          </p>
+          <p>
+            Primero, evalúa la potencia necesaria para tu viaje de acampada en hamaca, luego selecciona el tamaño adecuado del generador solar. La capacidad de los generadores solares de Jackery varía desde 3024 Wh hasta 240 Wh. Puedes elegir uno según tus necesidades. Aquí te explicamos cómo calcular cuánto tiempo tomará cargar tus dispositivos de acampada en hamaca:
+          </p>
+          <p>
+            Tiempo de funcionamiento = capacidad del generador solar * 0.85 / potencia de funcionamiento de tu dispositivo
+          </p>
+          <p>
+            Por ejemplo, si cargas una luz de 5 W para tu acampada en hamaca con un Generador Solar Jackery 500 (capacidad de 518 Wh), la luz funcionará durante 45 horas (518 Wh * 0.85 / 5 W).
+          </p>
+          <p style={{ paddingLeft: '2rem', fontWeight: '700' }}>
+            ¿Es seguro acampar en hamaca?
+          </p>
+          <p>
+            Acampar en una hamaca es tan seguro como acampar en una tienda. De hecho, es aún más seguro porque no estás en el suelo donde criaturas peligrosas pueden pisarte. Aunque acampar en hamaca es generalmente seguro, no está exento de algunas precauciones de seguridad.
+          </p>
+        </div>
+        <div className='NotaTitleConteiner'>
+          <p>
+            Conclusiones
+          </p>
+        </div>
+        <div className='NotaTexConteiner'>
+          <p>
+            El acampar en hamaca no es para todos ni para cualquier entorno, pero para muchos entusiastas de actividades al aire libre, puede brindar la experiencia de ensueño y relajación ideal.
+            Aunque la mayoría de nosotros estamos familiarizados con descansar en una hamaca con una brisa fresca de verano mientras hacemos una siesta al mediodía, una hamaca también puede ser ideal para una experiencia de camping nocturno. Si consigues un generador solar Jackery para alimentar cualquier equipo al aire libre durante el acampar en hamaca, tu experiencia será aún más grata.
           </p>
         </div>
 
