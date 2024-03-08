@@ -45,12 +45,12 @@ const CardHome = () => {
                   <p className="card-text cardTextHome">Generador solar 1000</p>
                 </div>
               </div>
-              <div className='card cardHome border-0'>
+              {/* <div className='card cardHome border-0'>
               <a href='/PRODUCTOS/Jackery Generador Solar 1000 - 2 paneles'><img src={imagen8} className="card-img-top img-fluid cardImgHome" alt="..." /></a>
                 <div className="card-body cardBodyHome">
                   <p className="card-text cardTextHome">Generador solar 1000 2</p>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           {/* <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleProductHome" data-bs-slide="prev">

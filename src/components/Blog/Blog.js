@@ -76,7 +76,7 @@ const Blog = () => {
       <section className='conteinerCards'>
  
 
-        <div id="consejosDeCompra" className="cardSlider container mb-3">
+        {/* <div id="consejosDeCompra" className="cardSlider container mb-3">
           <p className="texSlider">CONSEJOS DE COMPRA</p>
           <Cards />
           <a href="/BLOG/TecladoSolar" className="myButton mb-3" rel="noopener noreferrer">
@@ -104,6 +104,46 @@ const Blog = () => {
         <p className="texSlider">CONOCIMIENTO</p>
           <Cards4 />
           <a href="/Blog/la-guia-definitiva-de-tipos-de-paneles-solares" className="myButton mb-3" rel="noopener noreferrer">
+        EXPLORAR MÁS
+          </a>
+        </div>
+
+        <div id="novedades" className="cardSlider container mb-3">
+        <p className="texSlider">NOVEDADES</p>
+          <Cards5 />
+          <a href="/Blog/jackery-presenta-el-revolucionario-generador-solar" className="myButton mb-3" rel="noopener noreferrer">
+        EXPLORAR MÁS
+          </a>
+        </div> */}
+
+<div id="consejosDeCompra" className="cardSlider container mb-3">
+          <p className="texSlider">CONSEJOS DE COMPRA</p>
+          <Cards />
+          <a href="#" className="myButton mb-3" rel="noopener noreferrer">
+        EXPLORAR MÁS
+          </a>
+        </div>
+
+        <div id="estiloDeVida" className="cardSlider container mb-3">
+        <p className="texSlider">ESTILO DE VIDA</p>
+          <Cards2 />
+          <a href="#" className="myButton mb-3" rel="noopener noreferrer">
+        EXPLORAR MÁS
+          </a>
+        </div>
+
+        <div id="emergencia" className="cardSlider container mb-3">
+        <p className="texSlider">EMERGENCIA</p>
+          <Cards3 />
+          <a href="#" className="myButton mb-3" rel="noopener noreferrer">
+        EXPLORAR MÁS
+          </a>
+        </div>
+
+        <div id="conocimiento" className="cardSlider container mb-3">
+        <p className="texSlider">CONOCIMIENTO</p>
+          <Cards4 />
+          <a href="#" className="myButton mb-3" rel="noopener noreferrer">
         EXPLORAR MÁS
           </a>
         </div>

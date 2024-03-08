@@ -16,6 +16,7 @@ import MejoresCargadores from './components/Notas/conocimiento/MejoresCargadores
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import CorteDeEnergia from './components/Notas/conocimiento/CorteDeEnergia.js';
 import LaGuiaDefinitiva from './components/Notas/conocimiento/LaGuiaDefinitiva.js';
+import JackeryPresenta from './components/Notas/conocimiento/JackeryPresenta.js';
 
 
 
@@ -26,10 +27,6 @@ function App() {
         <NavBar/>
           <Routes>
           <Route path="/" element={<HOME/>} />
-          <Route path="/Blog/TecladoSolar" element={<TecladoSolar/>} />
-          <Route path="/Blog/mejores-cargadores-solares-para-excursiones" element={<MejoresCargadores/>} />
-          <Route path="/Blog/corte-de-energia" element={<CorteDeEnergia/>} />
-          <Route path="/Blog/la-guia-definitiva-de-tipos-de-paneles-solares" element={<LaGuiaDefinitiva/>} />
           <Route path="/HOME" element={<HOME/>} />
           <Route path="/PRODUCTOS" element={<PRODUCTOS/>} />
           <Route path="/PRODUCTOS/Jackery Explorer 240" element={<PRODUCTOS/>} />
@@ -41,6 +38,11 @@ function App() {
           <Route path="/PRODUCTOS/Jackery Generador Solar 500" element={<PRODUCTOS7/>} />
           <Route path="/PRODUCTOS/Jackery Generador Solar 240" element={<PRODUCTOS8/>} />
           <Route path="/Blog" element={<Blog/>} />
+          <Route path="/Blog/TecladoSolar" element={<TecladoSolar/>} />
+          <Route path="/Blog/mejores-cargadores-solares-para-excursiones" element={<MejoresCargadores/>} />
+          <Route path="/Blog/corte-de-energia" element={<CorteDeEnergia/>} />
+          <Route path="/Blog/la-guia-definitiva-de-tipos-de-paneles-solares" element={<LaGuiaDefinitiva/>} />
+          <Route path="/Blog/jackery-presenta-el-revolucionario-generador-solar" element={<JackeryPresenta/>} />
           <Route path="/CONTACTO" element={<Contact/>} />
           </Routes>
       </BrowserRouter>
