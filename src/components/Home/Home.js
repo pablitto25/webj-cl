@@ -2,6 +2,7 @@
 import './Home.css'
 import Carousel1 from './carousel/carousel';
 import React from 'react';
+import CardHomeNew from '../cardHome/cardHomeNews.js';
 import CardHome from '../Card/cardHome.js'
 import Cardhome2 from '../Card/cardHome2.js';
 import imagen from './assests/novedad1.jpg'
@@ -29,18 +30,7 @@ const HOME = () => {
 
       <div className='conteinerBody'> 
         <div className='conteinerBody2'>
-          <div className='conteinerBody21'>
-            <div className='conteinerBodyText'>
-              <p className='homeText'>Nuevos ingresos 2024</p>
-              <h1 className='homeTextTitle'>Generador Solar</h1>
-              <p className='homeText'>Energía verde y renovable para exploración</p>
-              <p className='homeText'>al aire libre y respaldo de emergencia.</p>
-            </div>
-            <a href="/PRODUCTOS/Jackery%20Generador%20Solar%201000%20-%202%20paneles" className="myButtonHome " rel="noopener noreferrer">
-                EXPLORAR MÁS
-              </a>
-
-          </div>
+          <CardHomeNew/>
           <div className='conteinerBody22'>
             <img className='imagenHome' src={imagen} alt='imagen' />
           </div>
