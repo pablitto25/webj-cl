@@ -3,7 +3,10 @@ import './conocimiento1.css'
 import Footer from '../../Footer/Footer'
 import Banner4 from '../../Banner/banner4'
 import Cards5 from '../../sliders/cards5'
-import imagen from './assests/nota1.jpg'
+import imagen2 from './assests/laguiadefinitiva/Imagen2.webp'
+import imagen3 from './assests/laguiadefinitiva/Imagen3.jpg'
+import imagen4 from './assests/laguiadefinitiva/Imagen4.webp'
+import imagen5 from './assests/laguiadefinitiva/Imagen5.webp'
 
 
 
@@ -25,16 +28,13 @@ const LaGuiaDefinitiva = () => {
             Los paneles solares son una excelente manera de alimentar su hogar y ahorrar dinero, pero muchos tipos de paneles solares disponibles hacen que sea difícil elegir la mejor opción.
           </p>
         </div>
-        <div className='NotaImgConteiner'>
-          <img src={imagen} alt='imagen' />
-        </div>
         <div className='NotaTitleConteiner'>
           <p>
             ¿Qué es un panel solar?
           </p>
         </div>
         <div className='NotaImgConteiner'>
-          <img src={imagen} alt='imagen' />
+          <img src={imagen2} alt='imagen' />
         </div>
         <div className='NotaTexConteiner'>
           <p>
@@ -161,7 +161,7 @@ const LaGuiaDefinitiva = () => {
           </p>
         </div>
         <div className='NotaImgConteiner'>
-          <img src={imagen} alt='imagen' />
+          <img src={imagen3} alt='imagen' />
         </div>
         <div className='NotaTexConteiner'>
           <p style={{ fontWeight: '700', fontSize: '1.2rem' }}>
@@ -530,7 +530,7 @@ const LaGuiaDefinitiva = () => {
           </p>
         </div>
         <div className='NotaImgConteiner'>
-          <img src={imagen} alt='imagen' />
+          <img src={imagen4} alt='imagen' />
         </div>
         <div className='NotaTexConteiner'>
           <p>
@@ -593,7 +593,7 @@ const LaGuiaDefinitiva = () => {
             </li>
           </ul>
           <div className='NotaImgConteiner'>
-            <img src={imagen} alt='imagen' />
+            <img src={imagen5} alt='imagen' />
           </div>
         </div>
         <div className='NotaTitleConteiner'>

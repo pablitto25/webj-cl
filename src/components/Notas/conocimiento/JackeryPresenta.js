@@ -3,7 +3,19 @@ import './conocimiento1.css'
 import Footer from '../../Footer/Footer'
 import Banner5 from '../../Banner/banner5'
 import Cards5 from '../../sliders/cards5'
-import imagen from './assests/nota1.jpg'
+import imagen2 from './assests/jackerypresenta/Imagen2.jpg'
+import imagen3 from './assests/jackerypresenta/Imagen3.webp'
+import imagen4 from './assests/jackerypresenta/Imagen4.webp'
+import imagen5 from './assests/jackerypresenta/Imagen5.webp'
+import imagen6 from './assests/jackerypresenta/Imagen6.webp'
+import imagen7 from './assests/jackerypresenta/Imagen7.webp'
+import imagen8 from './assests/jackerypresenta/Imagen8.webp'
+import imagen9 from './assests/jackerypresenta/Imagen9.webp'
+import imagen10 from './assests/jackerypresenta/Imagen10.webp'
+import imagen11 from './assests/jackerypresenta/Imagen11.webp'
+import imagen12 from './assests/jackerypresenta/Imagen12.webp'
+import imagen13 from './assests/jackerypresenta/Imagen13.webp'
+import imagen14 from './assests/jackerypresenta/Imagen14.webp'
 
 
 
@@ -26,7 +38,7 @@ const JackeryPresenta = () => {
           </p>
         </div>
         <div className='NotaImgConteiner'>
-          <img src={imagen} alt='imagen' />
+          <img src={imagen2} alt='imagen' />
         </div>
         <div className='NotaTexConteiner'>
           <p>
@@ -65,7 +77,7 @@ const JackeryPresenta = () => {
           </p>
         </div>
         <div className='NotaImgConteiner'>
-          <img src={imagen} alt='imagen' />
+          <img src={imagen3} alt='imagen' />
         </div>
         <div className='NotaTitleConteiner'>
           <p>
@@ -105,7 +117,7 @@ const JackeryPresenta = () => {
           </p>
         </div>
         <div className='NotaImgConteiner'>
-          <img src={imagen} alt='imagen' />
+          <img src={imagen4} alt='imagen' />
         </div>
         <div className='NotaTexConteiner'>
           <p>
@@ -231,7 +243,7 @@ const JackeryPresenta = () => {
           </p>
         </div>
         <div className='NotaImgConteiner'>
-          <img src={imagen} alt='imagen' />
+          <img src={imagen5} alt='imagen' />
         </div>
         <div className='NotaTexConteiner'>
           <p>
@@ -423,7 +435,7 @@ const JackeryPresenta = () => {
           </p>
         </div>
         <div className='NotaImgConteiner'>
-          <img src={imagen} alt='imagen' />
+          <img src={imagen6} alt='imagen' />
         </div>
         <div className='NotaTexConteiner'>
           <p>
@@ -680,7 +692,7 @@ const JackeryPresenta = () => {
           </p>
         </div>
         <div className='NotaImgConteiner'>
-          <img src={imagen} alt='imagen' />
+          <img src={imagen7} alt='imagen' />
         </div>
         <div className='NotaTitleConteiner'>
           <p>
@@ -693,7 +705,7 @@ const JackeryPresenta = () => {
           </p>
         </div>
         <div className='NotaImgConteiner'>
-          <img src={imagen} alt='imagen' />
+          <img src={imagen8} alt='imagen' />
         </div>
         <div className='NotaTitleConteiner'>
           <p>
@@ -833,7 +845,7 @@ const JackeryPresenta = () => {
           </p>
         </div>
         <div className='NotaImgConteiner'>
-          <img src={imagen} alt='imagen' />
+          <img src={imagen9} alt='imagen' />
         </div>
         <div className='NotaTitleConteiner'>
           <p>
@@ -1219,7 +1231,7 @@ const JackeryPresenta = () => {
           </p>
         </div>
         <div className='NotaImgConteiner'>
-          <img src={imagen} alt='imagen' />
+          <img src={imagen10} alt='imagen' />
         </div>
         <div className='NotaTitleConteiner'>
           <p>
@@ -1274,7 +1286,7 @@ const JackeryPresenta = () => {
           </p>
         </div>
         <div className='NotaImgConteiner'>
-          <img src={imagen} alt='imagen' />
+          <img src={imagen11} alt='imagen' />
         </div>
         <div className='NotaTexConteiner'>
           <p style={{ fontSize: '1.5rem' }}>
@@ -1312,7 +1324,7 @@ const JackeryPresenta = () => {
           </p>
         </div>
         <div className='NotaImgConteiner'>
-          <img src={imagen} alt='imagen' />
+          <img src={imagen12} alt='imagen' />
         </div>
         <div className='NotaTexConteiner'>
           <p>
@@ -1323,7 +1335,7 @@ const JackeryPresenta = () => {
           </p>
         </div>
         <div className='NotaImgConteiner'>
-          <img src={imagen} alt='imagen' />
+          <img src={imagen13} alt='imagen' />
         </div>
         <div className='NotaTexConteiner'>
           <p>
@@ -1393,7 +1405,7 @@ const JackeryPresenta = () => {
           </p>
         </div>
         <div className='NotaImgConteiner'>
-          <img src={imagen} alt='imagen' />
+          <img src={imagen14} alt='imagen' />
         </div>
         <div className='NotaTexConteiner'>
           <p>
@@ -1489,19 +1501,6 @@ const JackeryPresenta = () => {
 
         {/* End Note */}
 
-
-        {/* <div className='ProductVideo'>
-          <iframe
-            width='100%'
-            height='400px'
-            src='https://www.youtube.com/embed/TU_ID_DE_VIDEO' /* Reemplaza TU_ID_DE_VIDEO con el ID de tu video
-            title='Product Video'
-            frameborder='0'
-            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-            allowfullscreen
-          ></iframe>
-        </div> 
-      */}
         <div id="novedades" className="cardSlider container mb-3">
           <p className="texSlider">NOVEDADES</p>
           <Cards5 />

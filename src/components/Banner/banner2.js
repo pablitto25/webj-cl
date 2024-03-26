@@ -1,7 +1,7 @@
 
 import React from 'react';
 import './banner.css';
-import banner from './assest/banerBlog.jpg';
+import banner from './assest/mejores-cargadores-Imagen1.webp';
 
 const Banner2 = () => {
   return (

@@ -1,6 +1,5 @@
 
 import './Products.css'
-import React, { useEffect, useState } from 'react';
 import Cards5  from '../sliders/cards5';
 import CardProduct from '../Card/cardProducts/CardProduct5'
 import Gallery from '../gallery/gallery5';
@@ -12,24 +11,6 @@ import Footer from '../Footer/Footer';
 
 
 const PRODUCTOS5 = () => {
-
-  const [price, setPrice] = useState(null);
-
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await fetch('https://api.mercadolibre.com/items?ids=MLC2028414692');
-        const responseData = await response.json();
-        setPrice(responseData);
-      } catch (error) {
-        console.error('Error fetching data:', error);
-      }
-    };
-
-    fetchData();
-  }, []);
-
-  const data = price ? price[0]?.body.price.toLocaleString('es-CL') : null;
 
   return (
   

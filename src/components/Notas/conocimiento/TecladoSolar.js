@@ -3,7 +3,11 @@ import './conocimiento1.css'
 import Footer from '../../Footer/Footer'
 import Banner from '../../Banner/banner'
 import Cards5 from '../../sliders/cards5'
-import imagen from './assests/nota1.jpg'
+import imagen1 from './assests/tecladosolar/Imagen2.webp'
+import imagen2 from './assests/tecladosolar/Imagen3.webp'
+import imagen3 from './assests/tecladosolar/Imagen4.webp'
+import imagen4 from './assests/tecladosolar/Imagen5.webp'
+import imagen5 from './assests/tecladosolar/Imagen6.webp'
 
 
 
@@ -50,7 +54,7 @@ const TecladoSolar = () => {
           </p>
         </div>
         <div className='NotaImgConteiner'>
-          <img src={imagen} alt='imagen' />
+          <img src={imagen1} alt='imagen' />
         </div>
         <div className='NotaTitleConteiner'>
           <p>
@@ -143,7 +147,7 @@ const TecladoSolar = () => {
           </p>
         </div>
         <div className='NotaImgConteiner'>
-          <img src={imagen} alt='imagen' />
+          <img src={imagen2} alt='imagen' />
         </div>
         <div className='NotaTexConteiner'>
           <p>
@@ -174,7 +178,7 @@ const TecladoSolar = () => {
           </p>
         </div>
         <div className='NotaImgConteiner'>
-          <img src={imagen} alt='imagen' />
+          <img src={imagen3} alt='imagen' />
         </div>
         <div className='NotaTexConteiner'>
           <p>
@@ -188,7 +192,7 @@ const TecladoSolar = () => {
           </ul>
         </div>
         <div className='NotaImgConteiner'>
-          <img src={imagen} alt='imagen' />
+          <img src={imagen4} alt='imagen' />
         </div>
 
         <div className='NotaTitleConteiner'>
@@ -264,7 +268,7 @@ const TecladoSolar = () => {
           </p>
         </div>
         <div className='NotaImgConteiner'>
-          <img src={imagen} alt='imagen' />
+          <img src={imagen5} alt='imagen' />
         </div>
         <div className='NotaTexConteiner'>
           <p>

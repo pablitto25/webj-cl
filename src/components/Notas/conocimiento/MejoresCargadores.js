@@ -3,7 +3,12 @@ import './conocimiento1.css'
 import Footer from '../../Footer/Footer'
 import Banner2 from '../../Banner/banner2'
 import Cards5 from '../../sliders/cards5'
-import imagen from './assests/nota1.jpg'
+import imagen1 from './assests/mejorescargadores/Imagen2.png'
+import imagen2 from './assests/mejorescargadores/Imagen3.webp'
+import imagen3 from './assests/mejorescargadores/Imagen4.webp'
+import imagen4 from './assests/mejorescargadores/Imagen5.webp'
+import imagen5 from './assests/mejorescargadores/Imagen6.webp'
+
 
 
 
@@ -46,7 +51,7 @@ const MejoresCargadores = () => {
           </p>
         </div>
         <div className='NotaImgConteiner'>
-          <img src={imagen} alt='imagen' />
+          <img src={imagen1} alt='imagen' />
         </div>
         <div className='NotaTitleConteiner'>
           <p>
@@ -79,7 +84,7 @@ const MejoresCargadores = () => {
           </p>
         </div>
         <div className='NotaImgConteiner'>
-          <img src={imagen} alt='imagen' />
+          <img src={imagen2} alt='imagen' />
         </div>
         <div className='NotaTitleConteiner'>
           <p>
@@ -115,7 +120,7 @@ const MejoresCargadores = () => {
           </p>
         </div>
         <div className='NotaImgConteiner'>
-          <img src={imagen} alt='imagen' />
+          <img src={imagen3} alt='imagen' />
         </div>
         <div className='NotaTexConteiner'>
           <p>
@@ -201,7 +206,7 @@ const MejoresCargadores = () => {
             En comparación con los generadores de gasolina o combustible, todos los cargadores solares portátiles mencionados anteriormente son relativamente ligeros, portátiles y adecuados para viajes de senderismo. La mayoría son más adecuados para excursionismo en grupos o parejas, cuando es buena idea compartir la carga para que el peso total por persona sea más ligero.
           </p>
           <div className='NotaImgConteiner'>
-            <img src={imagen} alt='imagen' />
+            <img src={imagen4} alt='imagen' />
           </div>
           <p style={{ fontWeight: '700', paddingLeft: '2rem' }}>
             Puertos de carga
@@ -232,7 +237,7 @@ const MejoresCargadores = () => {
             Tiempo de funcionamiento = capacidad del generador solar * 0,85 / potencia de funcionamiento de tu dispositivo
           </p>
           <div className='NotaImgConteiner'>
-            <img src={imagen} alt='imagen' />
+            <img src={imagen5} alt='imagen' />
           </div>
           <p style={{ fontWeight: '700', paddingLeft: '2rem' }}>
             ¿Vale la pena un cargador solar para excursionismo?

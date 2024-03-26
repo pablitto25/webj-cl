@@ -1,6 +1,6 @@
 import React from 'react';
-import imagen from './assests/nota5a.jpg';
-import imagen2 from './assests/nota5b.jpg';
+/* import imagen from './assests/nota5a.jpg';
+import imagen2 from './assests/nota5b.jpg'; */
 import imagen3 from './assests/nota5c.jpg'
 import './cards5.css';
 

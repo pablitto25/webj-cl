@@ -3,7 +3,7 @@ import './conocimiento1.css'
 import Footer from '../../Footer/Footer'
 import Banner3 from '../../Banner/banner3'
 import Cards5 from '../../sliders/cards5'
-import imagen from './assests/nota1.jpg'
+import imagen from './assests/cortedeenergia/Imagen2.webp'
 
 
 
@@ -198,7 +198,6 @@ const CorteDeEnergia = () => {
           Los cortes de energía se han vuelto muy comunes ahora. Las razones más comunes suelen ser el clima, fallas del sistema y mantenimiento. Hemos analizado las mejores disposiciones de energía alternativa, la seguridad durante los cortes de energía y cómo encontrar el tamaño requerido de su generador de respaldo.
           </p>
         </div>
-
         {/* End Note */}
 
 

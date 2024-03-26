@@ -1,7 +1,7 @@
 
 import React from 'react';
 import './banner.css';
-import banner from './assest/banerBlog.jpg';
+import banner from './assest/banner4.webp';
 
 const Banner4 = () => {
   return (

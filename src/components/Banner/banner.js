@@ -1,7 +1,7 @@
 
 import React from 'react';
 import './banner.css';
-import banner from './assest/banerBlog.jpg';
+import image1 from './assest/Imagen1.webp'
 
 const Banner = () => {
   return (
@@ -16,7 +16,7 @@ const Banner = () => {
                 <p className='BannerTexBody'>
                 ¿Quieres saber qué generador solar te conviene comprar para tu teclado solar? No te pierdas nuestra recomendación de compra
                 </p>
-                <a href="#" className="buttonBanner mb-3" rel="noopener noreferrer">
+                <a href="/BLOG/TecladoSolar" className="buttonBanner mb-3" rel="noopener noreferrer">
         EXPLORAR MÁS
           </a>
             </div>
@@ -24,7 +24,7 @@ const Banner = () => {
         <div className="stripe-1"></div>
       </div>
       <div className="half-width">
-        <img src={banner} alt="Banner" className="banner-image fluid-img" style={{height:"600px"}} />
+        <img src={image1} alt="Banner" className="banner-image fluid-img" style={{height:"600px"}} />
       </div>
       <div className="div3">
         <div className="stripe-2"></div>
