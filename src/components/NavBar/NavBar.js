@@ -71,7 +71,7 @@ const NavBar = () => {
     <div className="navContainer">
       <div className={!navBarOpen ? 'navBar' : 'navOpen'}>
         <div className="logoContainer">
-          {!navBarOpen && <img src={Logo} alt="Logo" className='logo' />}
+          {!navBarOpen && <Link to="/"><img src={Logo} alt="Logo" className='logo' /></Link>}
         </div>
         <div className="linksContainer">
           {(navBarOpen || windowDimension.width > 800) && (

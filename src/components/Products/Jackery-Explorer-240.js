@@ -1,48 +1,50 @@
 
 import './Products.css'
-import React from 'react';
 import Cards5  from '../sliders/cards5';
-import CardProduct from '../Card/cardProducts/CardProduct3'
-import Gallery from '../gallery/gallery3';
-import imagen from './assests/producto3/240131-Jackery-Web-Aspectos Edxplorer 1000-1920x1080-01.jpg'
-import imagen2 from './assests/producto3/240131-Jackery-Web-Aspectos Edxplorer 1000-1920x1080-02.jpg'
-import CardIcons from '../Card/cardIcons/cardIcons3';
+import CardProduct from '../Card/cardProducts/CardProduct1'
+import Gallery from '../gallery/gallery1';
+import imagen from './assests/producto1/240131-Jackery-Web-Aspectos Especiales-1920x1080-01.jpg'
+import imagen2 from './assests/producto1/240131-Jackery-Web-Aspectos Especiales-1920x1080-02.jpg'
+import CardIcons from '../Card/cardIcons/cardIcons1';
 import Calculator from '../calculator/calculator';
 import Footer from '../Footer/Footer';
+import { Helmet } from 'react-helmet';
 
 
-const PRODUCTOS3 = () => {
+const PRODUCTOS = () => {
 
   
 
   return (
   
  <div className='conteiner'>
+  <Helmet>
+        <title>Jackery Explorer 240</title>
+      </Helmet>
   <div className='conteinerProducts1'>
     <div className='conteinerProducts1Imagen'>
       <CardProduct/>
     </div>
     <div className='conteinerProducts1ImagenText'>
-      <h1 className='textProducts'>Jackery Explorer 1000 - Estación de energía portátil</h1>
-      {/* <h2 className='numberProducts'> $1000000,00</h2> */}
-      <p className='BodyProducts'>Batería de litio de 1002 Wh</p>
-      <p className='BodyProducts'>1000 W de salida (2000 W de sobrecarga)</p>
-      <p className='BodyProducts'>Diseño portátil</p>
+      <h1 className='textProducts'>Jackery Explorer 240 - Estación de energía portátil</h1>
+      <h2 className='numberProducts'> $384.990</h2>
+      <p className='BodyProducts'>Batería de litio de 240 Wh (16,8 Ah)</p>
+      <p className='BodyProducts'>200 W de salida (400 W de sobrecarga)</p>
+      <p className='BodyProducts'>Carga al 100% tu equipo en 5 horas y media</p>
       <p className='BodyProducts'>3 opciones de carga</p>
-      <p className='BodyProducts'>4 modalidades de salida</p>
-      <p className='BodyProducts'>Alimenta hasta 7 dispositivos en simultáneo</p>
+      <p className='BodyProducts'>2 modalidades de salida</p>
       <p className='BodyProducts'>Indicadores en pantalla de potencia de entrada/salida y batería restante</p>
-      <a href="/CONTACTO" className="myButtonProduct mb-3" target="_blank" rel="noopener noreferrer">
-        CONSULTAR
+      <a href="https://www.mercadolibre.cl/ms/gz/checkout/buy-ms?px_variant_id=25186&item_id=MLC1429110817&parent_url=https://jackery.mercadoshops.cl/MLC-1429110817-jackery-explorer-240-estacion-de-energia-portatil-_JM&context=vip-mshops&channel=mshops&ms_store=jackery.mercadoshops.cl&quantity=1" className="myButtonProduct mb-3" target="_blank" rel="noopener noreferrer">
+        COMPRAR AHORA
       </a>
     </div>
   </div>
   <div className='conteinerProducts2'>
     <div className='ProductDescription'> 
-    <h1 className='textProducts'>Jackery Explorer 1000 - Estación de energía portátil</h1>
+    <h1 className='textProducts'>Jackery Explorer 240</h1>
     <div className='borderContainer'>
             <p className='BodyProducts'>
-            ¡Crea tu propio estilo de vida! La Explorer 1000 es una estación de energía portátil lo suficientemente potente para alimentar tus dispositivos electrónicos favoritos y lo suficientemente liviana para llevarla a cualquier parte.
+            Una pequeña gran compañera de aventuras, la Explorer 240 es una estación de energía liviana y fácilmente transportable, ideal para alimentar tu notebook, tu teléfono o tu cámara en tus escapadas a la naturaleza. 
             </p>
     </div>
     </div>
@@ -60,13 +62,13 @@ const PRODUCTOS3 = () => {
     </div>
     </div>
     <div className='ProductDescription'> 
-    <p className='BodyProducts'>La Jackery Explorer 1000 es una de las estaciones de energía más poderosas por su batería de 1002 Wh y múltiples puertos. El control de carga del MPPT incorporado asegura una carga solar eficiente y estable para alimentar las máquinas CPAP, taladros eléctricos, computadoras, y más.</p>
+    <p className='BodyProducts'>La estación de energía portátil Jackery Explorer 240 es tu fuente de alimentación ideal para tus dispositivos pequeños. Gracias a sus 3 kg, puedes llevarla a tus caminatas, campamentos, salidas de cabaña, o a donde sea que el fin de semana te lleve. Su diseño elegante y con estilo viene acompañado con funciones de seguridad avanzadas, lo que la hacen la opción principal para quienes disfrutan de acampar.</p>
     </div>
 
   </div>
   <div className='conteinerProducts3'>
   <div className='ProductDescription'> 
-    <h1 className='textProducts'>Jackery Explorer 1000 - Estación de energía portátil</h1>
+    <h1 className='textProducts'>¿Por qué elegir la Jackery Explorer 240?</h1>
   </div>
   <Gallery/>
   </div>
@@ -100,13 +102,16 @@ const PRODUCTOS3 = () => {
     </div>
   </div>
   <div className='conteinerProducts5'>
+  <h1 className='container textProducts center'>Todo lo que puedes alimentar con tu Explorer 240</h1>
+      <p className='container BodyProducts'>La Explorer 240 cuenta con una batería de iones de litio de 240 Wh. Los tres puertos de salida (un tomacorriente AC y dos USB-A) te permiten alimentar simultáneamente diversos tipos de dispositivos.</p>
     <CardIcons/>
   </div>
   <div className='conteinerProducts6'>
         <div className='ProductDescription'>
-          <h1 className='textProducts'>Simulador de Tiempo de Funcionamiento</h1>
-          <p className='textReview'>Ingresa el voltaje de un dispositivo (que no exceda los 1000 W) y descubre cuánto tiempo, aproximadamente, puedes usarlo de manera continua si lo alimentas con la Explorer 1000. </p>
+          <h1 className='textProducts'>Simulador de tiempo de funcionamiento</h1>
+          <p className='textReview'>Ingresa el voltaje de un dispositivo (que no exceda los 200 W) y descubre cuánto tiempo, aproximadamente, puedes usarlo de manera continua si lo alimentas con la Explorer 240.</p>
           <Calculator/>
+          <p>*Ten en cuenta que los resultados son aproximados</p>
         </div>
         <div id="novedades" className="cardSlider container mb-3">
         <p className="texSlider">NOVEDADES</p>
@@ -128,4 +133,4 @@ const PRODUCTOS3 = () => {
   );
 };
 
-export default PRODUCTOS3;
+export default PRODUCTOS;

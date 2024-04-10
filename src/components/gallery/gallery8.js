@@ -10,57 +10,64 @@ import imagen6 from './assests/gallery8/Vida útil larga.png'
 import imagen7 from './assests/gallery8/Vida útil larga.png'
 
 
-const gallery8= () => {
-  return (
-    <div className='containerImg'>
-        <div className='boxImg'>
+const gallery8 = () => {
+    return (
+        <div className='containerImg'>
+            <div className='boxImg'>
                 <figure>
                     <img className='imgGallery' src={imagen} alt='imagen1' >
                     </img>
+                    <figcaption className='imgCaption'>Alta durabilidad gracias a sus láminas ETFE</figcaption>
                 </figure>
 
-        </div>
-        <div className='boxImg'>
+            </div>
+            <div className='boxImg'>
 
                 <figure>
                     <img className='imgGallery' src={imagen2} alt='imagen1' >
                     </img>
+                    <figcaption className='imgCaption'>Salida de AC y USB-A</figcaption>
                 </figure>
 
-        </div>
-        <div className='boxImg'>
+            </div>
+            <div className='boxImg'>
                 <figure>
                     <img className='imgGallery' src={imagen3} alt='imagen1' >
                     </img>
+                    <figcaption className='imgCaption'>Portátil y robusto</figcaption>
                 </figure>
-        </div>
-        <div className='boxImg'>
+            </div>
+            <div className='boxImg'>
                 <figure>
                     <img className='imgGallery' src={imagen4} alt='imagen1' >
                     </img>
+                    <figcaption className='imgCaption'>Vida útil larga</figcaption>
                 </figure>
-        </div>
-        <div className='boxImg'>
+            </div>
+            <div className='boxImg'>
                 <figure>
                     <img className='imgGallery' src={imagen5} alt='imagen1' >
                     </img>
+                    <figcaption className='imgCaption'>Apto para outdoor (-10° a 40°)</figcaption>
                 </figure>
-        </div>
-        <div className='boxImg'>
+            </div>
+            <div className='boxImg'>
                 <figure>
                     <img className='imgGallery' src={imagen6} alt='imagen1' >
                     </img>
+                    <figcaption className='imgCaption'>Sistema BMS</figcaption>
                 </figure>
-        </div>
-        <div className='boxImg'>
+            </div>
+            <div className='boxImg'>
                 <figure>
                     <img className='imgGallery' src={imagen7} alt='imagen1' >
                     </img>
+                    <figcaption className='imgCaption'>Apta para carga solar</figcaption>
                 </figure>
-        </div>
+            </div>
 
-    </div>
-  )
+        </div>
+    )
 }
 
 export default gallery8

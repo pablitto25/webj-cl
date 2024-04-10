@@ -17,6 +17,7 @@ const gallery5 = () => {
                 <figure>
                     <img className='imgGallery' src={imagen} alt='imagen1' >
                     </img>
+                    <figcaption className='imgCaption'>Portátil y silencioso</figcaption>
                 </figure>
 
         </div>
@@ -25,6 +26,7 @@ const gallery5 = () => {
                 <figure>
                     <img className='imgGallery' src={imagen2} alt='imagen1' >
                     </img>
+                    <figcaption className='imgCaption'>Fácil de instalar</figcaption>
                 </figure>
 
         </div>
@@ -32,30 +34,36 @@ const gallery5 = () => {
                 <figure>
                     <img className='imgGallery' src={imagen3} alt='imagen1' >
                     </img>
+                    <figcaption className='imgCaption'>Controlador de carga MPPT incorporado</figcaption>
                 </figure>
         </div>
         <div className='boxImg'>
                 <figure>
                     <img className='imgGallery' src={imagen4} alt='imagen1' >
                     </img>
+                    <figcaption className='imgCaption'>Hecho para durar:</figcaption>
+                    <figcaption className='imgCaption2'>a prueba de golpes y polvo</figcaption>
                 </figure>
         </div>
         <div className='boxImg'>
                 <figure>
                     <img className='imgGallery' src={imagen5} alt='imagen1' >
                     </img>
+                    <figcaption className='imgCaption'>2 años de garantía oficial</figcaption>
                 </figure>
         </div>
         <div className='boxImg'>
                 <figure>
                     <img className='imgGallery' src={imagen6} alt='imagen1' >
                     </img>
+                    <figcaption className='imgCaption'>Apta para outdoor (-10° a 40°)</figcaption>
                 </figure>
         </div>
         <div className='boxImg'>
                 <figure>
                     <img className='imgGallery' src={imagen7} alt='imagen1' >
                     </img>
+                    <figcaption className='imgCaption'>A prueba de agua y polvo IP65</figcaption>
                 </figure>
         </div>
 

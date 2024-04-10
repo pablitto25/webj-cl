@@ -1,49 +1,48 @@
 
 import './Products.css'
 import Cards5  from '../sliders/cards5';
-import CardProduct from '../Card/cardProducts/CardProduct5'
-import Gallery from '../gallery/gallery5';
-import imagen from './assests/producto5/240131-Jackery-Web-Aspectos Generador Solar 1000x2-1920x1080-02.jpg'
-import imagen2 from './assests/producto5/240131-Jackery-Web-Aspectos Generador Solar 1000x2-1920x1080-01.jpg'
-import CardIcons from '../Card/cardIcons/cardIcons5';
+import CardProduct from '../Card/cardProducts/CardProduct6'
+import Gallery from '../gallery/gallery6';
+import imagen from './assests/producto6/240131-Jackery-Web-Aspectos Generador Solar 1000-1920x1080-01.jpg'
+import imagen2 from './assests/producto6/240131-Jackery-Web-Aspectos Generador Solar 1000-1920x1080-02.jpg'
+import CardIcons from '../Card/cardIcons/cardIcons6';
 import Calculator from '../calculator/calculator';
 import Footer from '../Footer/Footer';
+import { Helmet } from 'react-helmet';
 
-
-const PRODUCTOS5 = () => {
+const PRODUCTOS6 = () => {
 
   return (
   
  <div className='conteiner'>
+  <Helmet>
+        <title>Todo lo que puedes alimentar con tu Explorer 240</title>
+      </Helmet>
   <div className='conteinerProducts1'>
     <div className='conteinerProducts1Imagen'>
       <CardProduct/>
     </div>
     <div className='conteinerProducts1ImagenText'>
-      <h1 className='textProducts'>Jackery Generador Solar 1000 - 2 paneles</h1>
-      {/* <h2 className='numberProducts'> $1.939.990</h2> */}
-      <p className='BodyProducts'>Jackery Generador Solar 1000 - 2 paneles: Estación de Energía Portátil Jackery Explorer 1000 + 2 Paneles Solares SolarSaga 100W</p>
-      <p className='BodyProducts'>Batería de litio de 1002 W (46,4 Ah)</p>
+      <h1 className='textProducts'>Jackery Generador Solar 1000 </h1>
+      <h2 className='numberProducts'> $1.319.990</h2>
+      <p className='BodyProducts'>Jackery Generador Solar 1000: Estación de Energía Portátil Jackery Explorer 1000 + Panel Solar SolarSaga 100W</p>
+      <p className='BodyProducts'>Batería de litio de gran capacidad (1002 W)</p>
       <p className='BodyProducts'>1000 W de energía (sobretensión de 2000 W) </p>
-      <p className='BodyProducts'>12 capas de protección contra cortocircuitos</p>
+      <p className='BodyProducts'>Diseño portátil y resistente</p>
       <p className='BodyProducts'>Carga al 100% tu equipo en tan solo 8 horas</p>
-      <p className='BodyProducts'>Salidas múltiples (AC, DC, USB-C y USB-A)</p>
-      <p className='BodyProducts'>Alta eficiencia de conversión de hasta el 23%</p>
+      <p className='BodyProducts'>Sistema de protección BMS </p>
       <p className='BodyProducts'>Indicadores en pantalla de potencia de entrada/salida y batería restante</p>
-      {/* <a href="https://www.mercadolibre.cl/ms/gz/checkout/buy-ms?px_variant_id=25186&item_id=MLC2028414692&parent_url=https://jackery.mercadoshops.cl/MLC-2028414692-jackery-generador-solar-1000-2-paneles-_JM&context=vip-mshops&channel=mshops&ms_store=jackery.mercadoshops.cl&quantity=1" className="myButtonProduct mb-3" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.mercadolibre.cl/ms/gz/checkout/buy-ms?px_variant_id=25186&item_id=MLC1428920151&parent_url=https://jackery.mercadoshops.cl/MLC-1428920151-jackery-generador-solar-1000-_JM&context=vip-mshops&channel=mshops&ms_store=jackery.mercadoshops.cl&quantity=1" className="myButtonProduct mb-3" target="_blank" rel="noopener noreferrer">
         COMPRAR AHORA
-      </a> */}
-      <a href="/CONTACTO" className="myButtonProduct mb-3" target="_blank" rel="noopener noreferrer">
-        CONSULTAR
       </a>
     </div>
   </div>
   <div className='conteinerProducts2'>
     <div className='ProductDescription'> 
-    <h1 className='textProducts'>Jackery Generador Solar 1000 - 2 paneles</h1>
+    <h1 className='textProducts'>Jackery Generador Solar 1000 </h1>
     <div className='borderContainer'>
             <p className='BodyProducts'>
-            Jackery Generador Solar 1000 es realmente poderoso: puede alimentar hasta 7 dispositivos al mismo tiempo. Energía imbatible, energía verde. 
+            Jackery Generador Solar 1000 es la fórmula perfecta para proporcionar energía verde a tus diferentes dispositivos en simultáneo, debido a sus múltiples puertos de salida. ¡Ya no tienes de qué preocuparte en tus aventuras!
             </p>
     </div>
     </div>
@@ -52,7 +51,7 @@ const PRODUCTOS5 = () => {
       <iframe
         width='100%' 
         height='400px' 
-        src="https://www.youtube.com/embed/Tz9uVgdKT4E?si=Mmv_qkAVG4KdlBHd"
+        src="https://www.youtube.com/embed/8GAqwHSyzkk"
         title='Product Video'
         frameborder='0'
         allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
@@ -67,13 +66,13 @@ const PRODUCTOS5 = () => {
   </div>
   <div className='conteinerProducts3'>
   <div className='ProductDescription'> 
-    <h1 className='textProducts'>Jackery Generador Solar 1000 - 2 paneles</h1>
+    <h1 className='textProducts'>¿Por qué elegir el Jackery Generador Solar 1000? </h1>
   </div>
   <Gallery/>
   </div>
   <div className='conteinerProducts4'>
       <div className='ProductDescription'> 
-        <h1 className='textProducts'>Jackery Generador Solar 1000 - 2 paneles</h1>
+        <h1 className='textProducts'>Descubre más sobre energía solar</h1>
       </div>
     <div className='containerReview'>
       <div className="cardReview">
@@ -101,13 +100,16 @@ const PRODUCTOS5 = () => {
     </div>
   </div>
   <div className='conteinerProducts5'>
+  <h1 className='container textProducts center'>Todo lo que puedes alimentar con tu Jackery Generador Solar 1000</h1>
+      <p className='container BodyProducts'>La estación de energía Explorer 1000 del generador puede cargar electrodomésticos como computadoras, cámaras, máquinas CPAP, parrillas eléctricas y más.</p>
     <CardIcons/>
   </div>
   <div className='conteinerProducts6'>
         <div className='ProductDescription'>
-          <h1 className='textProducts'>Simulador de Tiempo de Funcionamiento</h1>
+          <h1 className='textProducts'>Simulador de tiempo de funcionamiento</h1>
           <p className='textReview'>Ingresa el voltaje de un dispositivo (que no exceda los 100 W) y descubre cuánto tiempo, aproximadamente, puedes usarlo de manera continua si lo alimentas con el Explorer 1000 </p>
           <Calculator/>
+          <p>*Ten en cuenta que los resultados son aproximados</p>
         </div>
         <div id="novedades" className="cardSlider container mb-3">
         <p className="texSlider">NOVEDADES</p>
@@ -129,4 +131,4 @@ const PRODUCTOS5 = () => {
   );
 };
 
-export default PRODUCTOS5;
+export default PRODUCTOS6;

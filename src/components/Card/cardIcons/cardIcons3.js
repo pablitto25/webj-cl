@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+/* import React, { useState } from 'react'; */
 import icon1 from './product3/Respirador CPAP.svg'
 import icon2 from './product3/Calefactor.svg'
 import icon3 from './product3/Cafetera.svg'
@@ -8,16 +8,16 @@ import icon6 from './product3/Pava.svg'
 import './cardIcons.css';
 
 const CardIcons3 = () => {
-    const [selectedBanner, setSelectedBanner] = useState('bannerProducts1');
+    /* const [selectedBanner, setSelectedBanner] = useState('bannerProducts1');
   
     const handleTabClick = (banner) => {
       setSelectedBanner(banner);
-    };
+    }; */
   
     return (
       <div>
         <div className='bannerProducts'>
-          {selectedBanner === 'bannerProducts1' && (
+          
             <div className='bannerProducts1 active'>
               <div className='bannerProductsSlide'>
                 <img src={icon1} alt='icons' className='bannerProductsIcons' />
@@ -34,10 +34,6 @@ const CardIcons3 = () => {
                 <p className='bannerProductsText'>Cafetera (550 W)</p>
                 <p className='bannerProductsText2'>1,5 h</p>
               </div>
-            </div>
-          )}
-          {selectedBanner === 'bannerProducts2' && (
-            <div className='bannerProducts2 active'>
               <div className='bannerProductsSlide'>
                 <img src={icon4} alt='icons' className='bannerProductsIcons' />
                 <p className='bannerProductsText'>Tostadora (650 W)</p>
@@ -54,12 +50,13 @@ const CardIcons3 = () => {
                 <p className='bannerProductsText2'>1 h</p>
               </div>
             </div>
-          )}
+          
+          
         </div>
-        <div className='tabs'>
+        {/* <div className='tabs'>
           <button className='tabsButton' onClick={() => handleTabClick('bannerProducts1')}></button>
           <button className='tabsButton' onClick={() => handleTabClick('bannerProducts2')}></button>
-        </div>
+        </div> */}
       </div>
     );
   };

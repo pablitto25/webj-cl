@@ -17,6 +17,7 @@ const gallery3 = () => {
                 <figure>
                     <img className='imgGallery' src={imagen} alt='imagen1' >
                     </img>
+                    <figcaption className='imgCaption'>Pequeña y portátil: sólo pesa 10 kg</figcaption>
                 </figure>
 
         </div>
@@ -25,6 +26,7 @@ const gallery3 = () => {
                 <figure>
                     <img className='imgGallery' src={imagen2} alt='imagen1' >
                     </img>
+                    <figcaption className='imgCaption'>Seguridad avanzada</figcaption>
                 </figure>
 
         </div>
@@ -32,30 +34,35 @@ const gallery3 = () => {
                 <figure>
                     <img className='imgGallery' src={imagen3} alt='imagen1' >
                     </img>
+                    <figcaption className='imgCaption'>Salidas AC, DC, USB-C y USB-A</figcaption>
                 </figure>
         </div>
         <div className='boxImg'>
                 <figure>
                     <img className='imgGallery' src={imagen4} alt='imagen1' >
                     </img>
+                    <figcaption className='imgCaption'>Batería de larga duración</figcaption>
                 </figure>
         </div>
         <div className='boxImg'>
                 <figure>
                     <img className='imgGallery' src={imagen5} alt='imagen1' >
                     </img>
+                    <figcaption className='imgCaption'>2 años de garantía oficial</figcaption>
                 </figure>
         </div>
         <div className='boxImg'>
                 <figure>
                     <img className='imgGallery' src={imagen6} alt='imagen1' >
                     </img>
+                    <figcaption className='imgCaption'>Apta para outdoor (-10° a 40°)</figcaption>
                 </figure>
         </div>
         <div className='boxImg'>
                 <figure>
                     <img className='imgGallery' src={imagen7} alt='imagen1' >
                     </img>
+                    <figcaption className='imgCaption'>Apta para carga solar</figcaption>
                 </figure>
         </div>
 

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+/* import React, { useState } from 'react'; */
 import icon1 from './product1/Velador.svg'
 import icon2 from './product1/Camara.svg'
 import icon3 from './product1/Parlante Bluetooth.svg'
@@ -8,16 +8,15 @@ import icon6 from './product1/Manta electrica.svg'
 import './cardIcons.css';
 
 const CardIcons = () => {
-    const [selectedBanner, setSelectedBanner] = useState('bannerProducts1');
+    /* const [selectedBanner, setSelectedBanner] = useState('bannerProducts1');
   
     const handleTabClick = (banner) => {
       setSelectedBanner(banner);
-    };
+    }; */
   
     return (
       <div>
         <div className='bannerProducts'>
-          {selectedBanner === 'bannerProducts1' && (
             <div className='bannerProducts1 active'>
               <div className='bannerProductsSlide'>
                 <img src={icon1} alt='icons' className='bannerProductsIcons' />
@@ -34,10 +33,6 @@ const CardIcons = () => {
                 <p className='bannerProductsText'>Parlante Bluetooth (10 W)</p>
                 <p className='bannerProductsText2'>16,5 h</p>
               </div>
-            </div>
-          )}
-          {selectedBanner === 'bannerProducts2' && (
-            <div className='bannerProducts2 active'>
               <div className='bannerProductsSlide'>
                 <img src={icon4} alt='icons' className='bannerProductsIcons' />
                 <p className='bannerProductsText'>Teléfono (18 W)</p>
@@ -54,12 +49,11 @@ const CardIcons = () => {
                 <p className='bannerProductsText2'>4 h</p>
               </div>
             </div>
-          )}
         </div>
-        <div className='tabs'>
+        {/* <div className='tabs'>
           <button className='tabsButton' onClick={() => handleTabClick('bannerProducts1')}></button>
           <button className='tabsButton' onClick={() => handleTabClick('bannerProducts2')}></button>
-        </div>
+        </div> */}
       </div>
     );
   };

@@ -17,6 +17,7 @@ const gallery = () => {
                 <figure>
                     <img className='imgGallery' src={imagen} alt='imagen1' >
                     </img>
+                    <figcaption className='imgCaption'>Plegable y liviano: pesa tan sólo 4,69 kg</figcaption>
                 </figure>
 
         </div>
@@ -25,6 +26,7 @@ const gallery = () => {
                 <figure>
                     <img className='imgGallery' src={imagen2} alt='imagen1' >
                     </img>
+                    <figcaption className='imgCaption'>Hecho para durar</figcaption>
                 </figure>
 
         </div>
@@ -32,30 +34,35 @@ const gallery = () => {
                 <figure>
                     <img className='imgGallery' src={imagen3} alt='imagen1' >
                     </img>
+                    <figcaption className='imgCaption'>A prueba de agua y polvo IP65</figcaption>
                 </figure>
         </div>
         <div className='boxImg'>
                 <figure>
                     <img className='imgGallery' src={imagen4} alt='imagen1' >
                     </img>
+                    <figcaption className='imgCaption'>Salidas USB-C y USB-A</figcaption>
                 </figure>
         </div>
         <div className='boxImg'>
                 <figure>
                     <img className='imgGallery' src={imagen5} alt='imagen1' >
                     </img>
+                    <figcaption className='imgCaption'>Carga directa de dispositivos</figcaption>
                 </figure>
         </div>
         <div className='boxImg'>
                 <figure>
                     <img className='imgGallery' src={imagen6} alt='imagen1' >
                     </img>
+                    <figcaption className='imgCaption'>Compatible con Jackery Explorer</figcaption>
                 </figure>
         </div>
         <div className='boxImg'>
                 <figure>
                     <img className='imgGallery' src={imagen7} alt='imagen1' >
                     </img>
+                    <figcaption className='imgCaption'>2 años de garantía oficial</figcaption>
                 </figure>
         </div>
 

@@ -147,6 +147,8 @@ margin: 5%;
 
 /*Funcion*/
 .conteinerProducts6{
+    
+    
     background-color: gainsboro;
     margin: 5%;
 }
@@ -286,4 +288,10 @@ margin: 5%;
     }
     
 
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    text-wrap: nowrap;
 }

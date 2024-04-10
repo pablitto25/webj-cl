@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+/* import React, { useState } from 'react'; */
 import icon1 from './product7/Telefono.svg'
 import icon2 from './product7/Televisor.svg'
 import icon3 from './product7/Respirador CPAP.svg'
@@ -8,16 +8,16 @@ import icon6 from './product7/Tostadora.svg'
 import './cardIcons.css';
 
 const CardIcons8 = () => {
-    const [selectedBanner, setSelectedBanner] = useState('bannerProducts1');
+    /* const [selectedBanner, setSelectedBanner] = useState('bannerProducts1');
   
     const handleTabClick = (banner) => {
       setSelectedBanner(banner);
-    };
+    }; */
   
     return (
       <div>
         <div className='bannerProducts'>
-          {selectedBanner === 'bannerProducts1' && (
+          
             <div className='bannerProducts1 active'>
               <div className='bannerProductsSlide'>
                 <img src={icon1} alt='icons' className='bannerProductsIcons' />
@@ -34,10 +34,6 @@ const CardIcons8 = () => {
                 <p className='bannerProductsText'>Equipo CPAP (60 W)</p>
                 <p className='bannerProductsText2'>7,3 h</p>
               </div>
-            </div>
-          )}
-          {selectedBanner === 'bannerProducts2' && (
-            <div className='bannerProducts2 active'>
               <div className='bannerProductsSlide'>
                 <img src={icon4} alt='icons' className='bannerProductsIcons' />
                 <p className='bannerProductsText'>Calefactor (350 W)</p>
@@ -54,12 +50,13 @@ const CardIcons8 = () => {
                 <p className='bannerProductsText2'>0,8 h</p>
               </div>
             </div>
-          )}
+          
+        
         </div>
-        <div className='tabs'>
+        {/* <div className='tabs'>
           <button className='tabsButton' onClick={() => handleTabClick('bannerProducts1')}></button>
           <button className='tabsButton' onClick={() => handleTabClick('bannerProducts2')}></button>
-        </div>
+        </div> */}
       </div>
     );
   };

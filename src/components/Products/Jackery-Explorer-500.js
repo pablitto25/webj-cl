@@ -9,7 +9,7 @@ import imagen2 from './assests/producto2/240131-Jackery-Web-Aspectos Explorer 50
 import CardIcons from '../Card/cardIcons/cardIcons2';
 import Calculator from '../calculator/calculator';
 import Footer from '../Footer/Footer';
-
+import { Helmet } from 'react-helmet';
 
 const PRODUCTOS2 = () => {
 
@@ -18,6 +18,9 @@ const PRODUCTOS2 = () => {
   return (
   
  <div className='conteiner'>
+  <Helmet>
+        <title>Jackery Explorer 500</title>
+      </Helmet>
   <div className='conteinerProducts1'>
     <div className='conteinerProducts1Imagen'>
       <CardProduct2/>
@@ -38,7 +41,7 @@ const PRODUCTOS2 = () => {
   </div>
   <div className='conteinerProducts2'>
     <div className='ProductDescription'> 
-    <h1 className='textProducts'>Jackery Explorer 500 - Estación de energía portátil</h1>
+    <h1 className='textProducts'>Jackery Explorer 500</h1>
     <div className='borderContainer'>
             <p className='BodyProducts'>
             Energía para vivir en libertad. La Explorer 500 combina capacidad y portabilidad para ayudarte a alimentar de energía a una amplia gama de dispositivos, desde teléfonos hasta electrodomésticos pequeños, sin perder movilidad. 
@@ -65,13 +68,13 @@ const PRODUCTOS2 = () => {
   </div>
   <div className='conteinerProducts3'>
   <div className='ProductDescription'> 
-    <h1 className='textProducts'>Jackery Explorer 500 - Estación de energía portátil</h1>
+    <h1 className='textProducts'>¿Por qué elegir la Jackery Explorer 500?</h1>
   </div>
   <Gallery/>
   </div>
   <div className='conteinerProducts4'>
       <div className='ProductDescription'> 
-        <h1 className='textProducts'>Jackery Explorer 500 - Estación de energía portátil</h1>
+        <h1 className='textProducts'>Descubre más sobre energía solar</h1>
       </div>
     <div className='containerReview'>
       <div className="cardReview">
@@ -99,13 +102,16 @@ const PRODUCTOS2 = () => {
     </div>
   </div>
   <div className='conteinerProducts5'>
+  <h1 className='container textProducts center'>Todo lo que puedes alimentar con tu Explorer 500</h1>
+      <p className='container BodyProducts'>La Explorer 500 cuenta con un toma de corriente alterna, dos puertos de corriente continua, un puerto para automóvil y tres puertos USB-A para cargar dispositivos de baja a alta potencia, como bombas de aire, máquinas CPAP, televisores, mini-refrigeradores y más. Su tamaño compacto hace que sea ideal para viajes por carretera y campamentos en casa rodante</p>
     <CardIcons/>
   </div>
   <div className='conteinerProducts6'>
         <div className='ProductDescription'>
-          <h1 className='textProducts'>Simulador de Tiempo de Funcionamiento</h1>
-          <p className='textReview'>La Explorer 500 cuenta con un toma de corriente alterna, dos puertos de corriente continua, un puerto para automóvil y tres puertos USB-A para cargar dispositivos de baja a alta potencia, como bombas de aire, máquinas CPAP, televisores, mini-refrigeradores y más. Su tamaño compacto hace que sea ideal para viajes por carretera y campamentos en casa rodante.</p>
+          <h1 className='textProducts'>Poner Simulador de tiempo de funcionamiento</h1>
+          <p className='textReview'>Ingresa el voltaje de un dispositivo (que no exceda los 500 W) y descubre cuánto tiempo, aproximadamente, puedes usarlo de manera continua si lo alimentas con la Explorer 500.</p>
           <Calculator/>
+          <p>*Ten en cuenta que los resultados son aproximados</p>
         </div>
         <div id="novedades" className="cardSlider container mb-3">
         <p className="texSlider">NOVEDADES</p>

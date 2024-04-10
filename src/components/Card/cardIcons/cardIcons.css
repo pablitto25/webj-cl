@@ -74,6 +74,7 @@
     background-color: #ff5000;
 }
 
+
 @media (max-width: 800px) {
     .bannerProducts {
         flex-direction: column; /* Cambia la dirección del flex para apilar los elementos verticalmente */
