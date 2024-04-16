@@ -12,6 +12,9 @@ import { Helmet } from 'react-helmet';
 
 const PRODUCTOS5 = () => {
 
+  const watts = 240;
+  const wattsLimit = 1000;
+
   return (
   
  <div className='conteiner'>
@@ -111,8 +114,8 @@ const PRODUCTOS5 = () => {
   <div className='conteinerProducts6'>
         <div className='ProductDescription'>
           <h1 className='textProducts'>Simulador de tiempo de funcionamiento</h1>
-          <p className='textReview'>Ingresa el voltaje de un dispositivo (que no exceda los 100 W) y descubre cuánto tiempo, aproximadamente, puedes usarlo de manera continua si lo alimentas con el Explorer 1000 </p>
-          <Calculator/>
+          <p className='textReview'>Ingresa el voltaje de un dispositivo (que no exceda los 200 W) y descubre cuánto tiempo, aproximadamente, puedes usarlo de manera continua si lo alimentas con el Explorer 1000 </p>
+          <Calculator watts ={watts} wattsLimit = {wattsLimit}/>
           <p>*Ten en cuenta que los resultados son aproximados</p>
         </div>
         <div id="novedades" className="cardSlider container mb-3">

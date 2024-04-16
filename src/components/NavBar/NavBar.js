@@ -45,20 +45,15 @@ const NavBar = () => {
   ];
 
   const productsMenuOptions = [ 
+    
     { id: 1, link: "/PRODUCTOS/Jackery Explorer 240", text: "Jackery Explorer 240" },
-    { id: 2, link: "/PRODUCTOS/Jackery Generador Solar 240", text: "Jackery Generador Solar 240" },
-    { id: 3, link: "/PRODUCTOS/Jackery Generador Solar 500", text: "Jackery Generador Solar 500" },
-    { id: 4, link: "/PRODUCTOS/Jackery Generador Solar 1000 ", text: "Jackery Generador Solar 1000" },
-    { id: 5, link: "/PRODUCTOS/Jackery Generador Solar 1000 - 2 paneles", text: "Jackery Generador Solar 1000 - 2 paneles" },
-    { id: 6, link: "/PRODUCTOS/Jackery Explorer 500", text: "Jackery Explorer 500" },
-    { id: 7, link: "/PRODUCTOS/Jackery Explorer 1000", text: "Jackery Explorer 1000" },
-    { id: 8, link: "/PRODUCTOS/Jackery SolarSaga 100", text: "Jackery SolarSaga 100" }, 
-    
-    
-    
-    
-
-    
+    { id: 2, link: "/PRODUCTOS/Jackery Explorer 500", text: "Jackery Explorer 500" },
+    { id: 3, link: "/PRODUCTOS/Jackery Explorer 1000", text: "Jackery Explorer 1000" },
+    { id: 4, link: "/PRODUCTOS/Jackery SolarSaga 100", text: "Jackery SolarSaga 100" }, 
+    { id: 5, link: "/PRODUCTOS/Jackery Generador Solar 240", text: "Jackery Generador Solar 240" },
+    { id: 6, link: "/PRODUCTOS/Jackery Generador Solar 500", text: "Jackery Generador Solar 500" },
+    { id: 7, link: "/PRODUCTOS/Jackery Generador Solar 1000 ", text: "Jackery Generador Solar 1000" },
+    { id: 8, link: "/PRODUCTOS/Jackery Generador Solar 1000 - 2 paneles", text: "Jackery Generador Solar 1000 - 2 paneles" },
   ];
 
   const icons = [
@@ -113,7 +108,7 @@ const NavBar = () => {
           {!navBarOpen && windowDimension.width > 800 && (
             <>
               {icons.map((x) => (
-                <Link key={x.id} to={x.link} className="iconLink">
+                <Link key={x.id} to={x.link} target='_blank' className="iconLink">
                   <img src={x.icon} alt={`Icon ${x.id}`} className="icon" />
                 </Link>
               ))}

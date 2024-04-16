@@ -39,6 +39,9 @@
     background-color: #fd5000 ;
     border: none;
 }
+
+
+
 @media (max-width: 1000px) {
     .cardImgHome {
         width: 100%; 
@@ -62,4 +65,15 @@
     .cardTextHome {
         font-size: 5px;
     }
+}
+
+
+
+.carousel-control-next, .carousel-control-prev{
+    width: 6%!important;
+}
+
+#arrowsSliders{
+    background-color: white!important;
+    border-radius: 6px;
 }

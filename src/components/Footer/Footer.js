@@ -43,7 +43,7 @@ const footer = () => {
             <section className='footerSocial'>
                 <div className='footerLinks'>
                     {icons.map((x) => (
-                        <Link key={x.id} to={x.link} className="iconLink">
+                        <Link key={x.id} to={x.link} target='_blank' className="iconLink">
                             <img src={x.icon} alt={`Icon ${x.id}`} className="icon" />
                         </Link>
                     ))}

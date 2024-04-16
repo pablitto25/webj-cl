@@ -12,6 +12,7 @@ const cardhome2 = () => {
   return (
 
     <div className='containerCards2'>
+      <p className='homeTextTitle'>Productos destacados</p>
       <div id="carouselExample2" className="carousel slide">
         <div className="carousel-inner">
           <div className="carousel-item active">
@@ -60,11 +61,15 @@ const cardhome2 = () => {
           </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
-          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+        <svg xmlns="http://www.w3.org/2000/svg" id='arrowsSliders' width="40" height="40" fill="black" className="bi bi-caret-left-square-fill" viewBox="0 0 16 16">
+              <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm10.5 10V4a.5.5 0 0 0-.832-.374l-4.5 4a.5.5 0 0 0 0 .748l4.5 4A.5.5 0 0 0 10.5 12" />
+            </svg>
           <span className="visually-hidden">Previous</span>
         </button>
         <button className="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
-          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+        <svg xmlns="http://www.w3.org/2000/svg" id='arrowsSliders' width="40" height="40" fill="black" className="bi bi-caret-right-square-fill" viewBox="0 0 16 16">
+              <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm5.5 10a.5.5 0 0 0 .832.374l4.5-4a.5.5 0 0 0 0-.748l-4.5-4A.5.5 0 0 0 5.5 4z" />
+            </svg>
           <span className="visually-hidden">Next</span>
         </button>
       </div>

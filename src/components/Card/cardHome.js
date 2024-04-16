@@ -10,16 +10,21 @@ import imagen7 from './assests/Generador solar 1000.png'
 import imagen8 from './assests/Generador solar 1000 2 paneles solares.png'
 
 
+
+
 const CardHome = () => {
+
+
+  
+
   return (
     <div className='containerHomeCard'>
       <div id="carouselExampleProductHome" className="carousel slide">
         <div className="carousel-inner border-0">
           <div className="carousel-item active border-0">
-            <div className=" w-100 containerCards border-0">
+            <div className="w-100 containerCards border-0">
               <div className='card cardHome border-0'>
-                <a href='/PRODUCTOS/Jackery Explorer 240'><img src={imagen3} className="card-img-top img-fluid cardImgHome"
-                  alt="..." /></a>
+                <a href='/PRODUCTOS/Jackery Explorer 240'><img src={imagen3} className="card-img-top img-fluid cardImgHome" alt="..." /></a>
                 <div className="card-body cardBodyHome">
                   <p className="card-text cardTextHome">Explorer 240</p>
                 </div>
@@ -45,7 +50,7 @@ const CardHome = () => {
               </div>
             </div>
           </div>
-          <div className="carousel-item  border-0 ">
+          <div className="carousel-item  border-0">
             <div className=" w-100 containerCards">
               <div className='card cardHome border-0'>
                 <a href='/PRODUCTOS/Jackery Generador Solar 1000 - 2 paneles'><img src={imagen8} className="card-img-top img-fluid cardImgHome" alt="..." /></a>
@@ -74,11 +79,15 @@ const CardHome = () => {
             </div>
           </div>
           <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleProductHome" data-bs-slide="prev">
-            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+            <svg xmlns="http://www.w3.org/2000/svg" id='arrowsSliders' width="40" height="40" fill="black" className="bi bi-caret-left-square-fill" viewBox="0 0 16 16">
+              <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm10.5 10V4a.5.5 0 0 0-.832-.374l-4.5 4a.5.5 0 0 0 0 .748l4.5 4A.5.5 0 0 0 10.5 12" />
+            </svg>
             <span className="visually-hidden">Previous</span>
           </button>
           <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleProductHome" data-bs-slide="next">
-            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+            <svg xmlns="http://www.w3.org/2000/svg" id='arrowsSliders' width="40" height="40" fill="black" className="bi bi-caret-right-square-fill" viewBox="0 0 16 16">
+              <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm5.5 10a.5.5 0 0 0 .832.374l4.5-4a.5.5 0 0 0 0-.748l-4.5-4A.5.5 0 0 0 5.5 4z" />
+            </svg>
             <span className="visually-hidden">Next</span>
           </button>
         </div>
