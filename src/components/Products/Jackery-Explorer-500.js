@@ -104,12 +104,12 @@ const PRODUCTOS2 = () => {
   </div>
   <div className='conteinerProducts5'>
   <h1 className='container textProducts center'>Todo lo que puedes alimentar con tu Explorer 500</h1>
-      <p className='container BodyProducts'>La Explorer 500 cuenta con un toma de corriente alterna, dos puertos de corriente continua, un puerto para automóvil y tres puertos USB-A para cargar dispositivos de baja a alta potencia, como bombas de aire, máquinas CPAP, televisores, mini-refrigeradores y más. Su tamaño compacto hace que sea ideal para viajes por carretera y campamentos en casa rodante</p>
+      <p className='container BodyProducts'>La Explorer 500 cuenta con un toma de corriente alterna, dos puertos de corriente continua, un puerto para automóvil y tres puertos USB-A para cargar dispositivos de baja a alta potencia, como bombas de aire, máquinas CPAP, televisores, mini-refrigeradores y más. Su tamaño compacto hace que sea ideal para viajes por carretera y campamentos en casa rodante.</p>
     <CardIcons/>
   </div>
   <div className='conteinerProducts6'>
         <div className='ProductDescription'>
-          <h1 className='textProducts'>Poner Simulador de tiempo de funcionamiento</h1>
+          <h1 className='textProducts'>Simulador de tiempo de funcionamiento</h1>
           <p className='textReview'>Ingresa el voltaje de un dispositivo (que no exceda los 500 W) y descubre cuánto tiempo, aproximadamente, puedes usarlo de manera continua si lo alimentas con la Explorer 500.</p>
           <Calculator watts ={watts} wattsLimit = {wattsLimit}/>
           <p>*Ten en cuenta que los resultados son aproximados</p>

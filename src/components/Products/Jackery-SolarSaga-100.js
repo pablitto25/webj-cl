@@ -67,7 +67,7 @@ const PRODUCTOS4 = () => {
       </div>
       <div className='conteinerProducts3'>
         <div className='ProductDescription'>
-          <h1 className='textProducts'>¿Por qué elegir el Jackery SolarSaga100?</h1>
+          <h1 className='textProducts'>¿Por qué elegir el Jackery SolarSaga 100?</h1>
         </div>
         <Gallery />
       </div>

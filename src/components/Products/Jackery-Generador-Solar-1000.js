@@ -5,15 +5,15 @@ import CardProduct from '../Card/cardProducts/CardProduct6'
 import Gallery from '../gallery/gallery6';
 import imagen from './assests/producto6/240131-Jackery-Web-Aspectos Generador Solar 1000-1920x1080-01.jpg'
 import imagen2 from './assests/producto6/240131-Jackery-Web-Aspectos Generador Solar 1000-1920x1080-02.jpg'
-import CardIcons from '../Card/cardIcons/cardIcons6';
-import Calculator from '../calculator/calculator';
+/* import CardIcons from '../Card/cardIcons/cardIcons6';
+import Calculator from '../calculator/calculator'; */
 import Footer from '../Footer/Footer';
 import { Helmet } from 'react-helmet';
 
 const PRODUCTOS6 = () => {
 
-  const watts = 1000;
-  const wattsLimit = 1000;
+  /* const watts = 1000;
+  const wattsLimit = 1000; */
 
   return (
   
@@ -102,22 +102,23 @@ const PRODUCTOS6 = () => {
       </div>
     </div>
   </div>
-  <div className='conteinerProducts5'>
+  {/* <div className='conteinerProducts5'>
   <h1 className='container textProducts center'>Todo lo que puedes alimentar con tu Jackery Generador Solar 1000</h1>
       <p className='container BodyProducts'>La estación de energía Explorer 1000 del generador puede cargar electrodomésticos como computadoras, cámaras, máquinas CPAP, parrillas eléctricas y más.</p>
     <CardIcons/>
-  </div>
+  </div> */}
   <div className='conteinerProducts6'>
-        <div className='ProductDescription'>
+        {/* <div className='ProductDescription'>
           <h1 className='textProducts'>Simulador de tiempo de funcionamiento</h1>
           <p className='textReview'>Ingresa el voltaje de un dispositivo (que no exceda los 1000 W) y descubre cuánto tiempo, aproximadamente, puedes usarlo de manera continua si lo alimentas con el Explorer 1000 </p>
           <Calculator watts ={watts} wattsLimit = {wattsLimit}/>
           <p>*Ten en cuenta que los resultados son aproximados</p>
-        </div>
+        </div> */}
+        <p> </p>
         <div id="novedades" className="cardSlider container mb-3">
         <p className="texSlider">NOVEDADES</p>
           <Cards5 />
-          <a href="https://tu-pagina.com" className="myButton mb-3" target="_blank" rel="noopener noreferrer">
+          <a href="/Blog/jackery-presenta-el-revolucionario-generador-solar" className="myButton mb-3" target="_blank" rel="noopener noreferrer">
         EXPLORAR MÁS
           </a>
         </div>

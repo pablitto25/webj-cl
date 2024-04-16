@@ -54,7 +54,7 @@ const gallery = () => {
                 <figure>
                     <img className='imgGallery' src={imagen6} alt='imagen1' >
                     </img>
-                    <figcaption className='imgCaption'>Apta para outdoor (-10° a 40°)a</figcaption>
+                    <figcaption className='imgCaption'>Apta para outdoor (-10° a 40°)</figcaption>
                 </figure>
             </div>
             <div className='boxImg'>

@@ -55,7 +55,8 @@ const gallery6 = () => {
                 <figure>
                     <img className='imgGallery' src={imagen6} alt='imagen1' >
                     </img>
-                    <figcaption className='imgCaption'>Alta eficiencia de conversión de hasta el 23%</figcaption>
+                    <figcaption className='imgCaption'>Alta eficiencia de conversión</figcaption>
+                    <figcaption className='imgCaption2'>de hasta el 23%</figcaption>
                 </figure>
             </div>
             <div className='boxImg'>

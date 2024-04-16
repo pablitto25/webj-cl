@@ -43,7 +43,7 @@ const PRODUCTOS3 = () => {
       </div>
       <div className='conteinerProducts2'>
         <div className='ProductDescription'>
-          <h1 className='textProducts'>Poner Jackery Explorer 1000</h1>
+          <h1 className='textProducts'>Jackery Explorer 1000</h1>
           <div className='borderContainer'>
             <p className='BodyProducts'>
               ¡Crea tu propio estilo de vida! La Explorer 1000 es una estación de energía portátil lo suficientemente potente para alimentar tus dispositivos electrónicos favoritos y lo suficientemente liviana para llevarla a cualquier parte.
