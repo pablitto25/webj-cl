@@ -8,6 +8,7 @@ import Cards4 from '../sliders/cards4';
 import Cards5 from '../sliders/cards5';
 import { Link } from 'react-scroll';
 import Footer from '../Footer/Footer';
+import Cards6 from '../sliders/cards6';
 
 const Blog = () => {
   return (
@@ -75,6 +76,13 @@ const Blog = () => {
 
       <section className='conteinerCards'>
  
+      <div id="novedades" className="cardSlider container mb-3">
+        <p className="texSlider">DÍA DE LA TIERRA</p>
+          <Cards6 />
+          <a href="/Blog/dia-de-la-tierra" className="myButton mb-3" rel="noopener noreferrer">
+        EXPLORAR MÁS
+          </a>
+        </div>
 
         <div id="consejosDeCompra" className="cardSlider container mb-3">
           <p className="texSlider">CONSEJOS DE COMPRA</p>

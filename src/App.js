@@ -17,6 +17,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import CorteDeEnergia from './components/Notas/conocimiento/CorteDeEnergia.js';
 import LaGuiaDefinitiva from './components/Notas/conocimiento/LaGuiaDefinitiva.js';
 import JackeryPresenta from './components/Notas/conocimiento/JackeryPresenta.js';
+import DiaDeLaTierra from './components/Notas/conocimiento/DiaDeLaTierra.js';
 
 
 
@@ -43,6 +44,7 @@ function App() {
           <Route path="/Blog/corte-de-energia" element={<CorteDeEnergia/>} />
           <Route path="/Blog/la-guia-definitiva-de-tipos-de-paneles-solares" element={<LaGuiaDefinitiva/>} />
           <Route path="/Blog/jackery-presenta-el-revolucionario-generador-solar" element={<JackeryPresenta/>} />
+          <Route path="/Blog/dia-de-la-tierra" element={<DiaDeLaTierra/>} />
           <Route path="/CONTACTO" element={<Contact/>} />
           </Routes>
       </BrowserRouter>

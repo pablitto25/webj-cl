@@ -1,21 +1,21 @@
 
 import React from 'react';
 import './banner.css';
-import banner from './assest/banner1.webp';
+import banner from './assest/DiaDeLaTierrra-Blog.jpg';
 
-const Banner3 = () => {
+const Banner6 = () => {
   return (
     <div className="banner-container">
       <div className="div1">
         <div className="stripe-1"></div>
         <div className="stripe-8">
          <div className='BannerTex'>
-                <h1 className='BannerTexTitle'>Corte de energía:</h1>
-                <h2 className='BannerTexSubTitle'>¿cuál es la razón por</h2>
-                <h2 className='BannerTexSubTitle'>la que se corta la luz?</h2>
-                <p className='BannerTexBody'>
-                ¿Quieres saber cuál es el motivo por el cual se corta la energía? ¿Quieres saber cómo actuar frente a esta situación?
-                </p>
+                <h1 className='BannerTexTitle'>Día de la tierra:</h1>
+                <h2 className='BannerTexSubTitle'>Jackery se compromete por</h2>
+                <h2 className='BannerTexSubTitle'>un futuro más ecológico.</h2>
+                {/* <p className='BannerTexBody'>
+                Conoce el avance que Jackery presentó con respecto a los generadores solares: se viene una nueva era
+                </p> */}
             </div>
         </div>
         <div className="stripe-1"></div>
@@ -33,5 +33,5 @@ const Banner3 = () => {
   );
 };
 
-export default Banner3;
+export default Banner6;
 
