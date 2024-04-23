@@ -1,7 +1,7 @@
 import React from 'react'
 import './conocimiento1.css'
 import Footer from '../../Footer/Footer'
-import Cards6 from '../../sliders/cards6'
+import Cards3 from '../../sliders/cards3'
 import Banner6 from '../../Banner/banner6'
 import { Link } from 'react-router-dom'
 
@@ -60,7 +60,7 @@ const DiaDeLaTierra = () => {
                 
                 <div id="novedades" className="cardSlider container mb-3">
                     <p className="texSlider">NOVEDADES</p>
-                    <Cards6 />
+                    <Cards3 />
                     <a href="/Blog/jackery-presenta-el-revolucionario-generador-solar" className="myButton mb-3" target="_blank" rel="noopener noreferrer">
                         EXPLORAR MÁS
                     </a>
