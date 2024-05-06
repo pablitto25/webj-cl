@@ -5,7 +5,7 @@ import React from 'react';
 import CardHomeNew from '../cardHome/cardHomeNews.js';
 import CardHome from '../Card/cardHome.js'
 import Cardhome2 from '../Card/cardHome2.js';
-import imagen from './assests/novedad1.jpg'
+import imagen from './assests/imagen-news-home.webp'
 import CarouselHome from './carousel/carousel1.js';
 import Footer from '../Footer/Footer.js';
 

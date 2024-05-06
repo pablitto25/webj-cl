@@ -16,6 +16,9 @@ const Banner6 = () => {
                 {/* <p className='BannerTexBody'>
                 Conoce el avance que Jackery presentó con respecto a los generadores solares: se viene una nueva era
                 </p> */}
+                <a href="/Blog/dia-de-la-tierra" className="buttonBanner mb-3" rel="noopener noreferrer">
+        EXPLORAR MÁS
+          </a>
             </div>
         </div>
         <div className="stripe-1"></div>
