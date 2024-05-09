@@ -6,10 +6,10 @@ import Cards2 from '../sliders/cards2';
 import Cards3 from '../sliders/cards3';
 import Cards4 from '../sliders/cards4';
 import Cards5 from '../sliders/cards5';
-/* import { Link } from 'react-scroll'; */
 import Footer from '../Footer/Footer';
 import Cards6 from '../sliders/cards6';
 import Cards7 from '../sliders/cards7';
+import Cards8 from '../sliders/cards8';
 
 const Blog = () => {
   const [selectedCategory, setSelectedCategory] = useState('TODOS'); // Estado para la categoría seleccionada
@@ -32,6 +32,11 @@ const Blog = () => {
         <section className='conteinerCards'>
           {selectedCategory === 'TODOS' && (
             <>
+              <div id="novedades" className="cardSlider container mb-3">
+                <p className="texSlider">Jackery Explorer 240: la mejor estación de energía portátil para tus vacaciones</p>
+                <Cards8 />
+                <a href="/Blog/jackery-explorer-240-la-mejor-estacion-de-energia-portatil-para-tus-vacaciones" className="myButton mb-3" rel="noopener noreferrer">EXPLORAR MÁS</a>
+              </div>
               <div id="novedades" className="cardSlider container mb-3">
                 <p className="texSlider">TECNOLOGÍA VERDE, TECNOLOGÍA JACKERY</p>
                 <Cards7 />
@@ -72,10 +77,17 @@ const Blog = () => {
           {/* Agrega el resto de tus cards de blog aquí y filtra según selectedCategory */}
 
           {selectedCategory === 'CONSEJOS DE COMPRA' && (
-            <div id="consejosDeCompra" className="cardSlider container mb-3">
-              <p className="texSlider">CONSEJOS DE COMPRA</p>
-              <Cards />
-              <a href="/BLOG/TecladoSolar" className="myButton mb-3" rel="noopener noreferrer">EXPLORAR MÁS</a>
+            <div>
+              <div id="consejosDeCompra" className="cardSlider container mb-3">
+                <p className="texSlider">CONSEJOS DE COMPRA</p>
+                <Cards />
+                <a href="/BLOG/TecladoSolar" className="myButton mb-3" rel="noopener noreferrer">EXPLORAR MÁS</a>
+              </div>
+              <div id="novedades" className="cardSlider container mb-3">
+                <p className="texSlider">Jackery Explorer 240: la mejor estación de energía portátil para tus vacaciones</p>
+                <Cards8 />
+                <a href="/Blog/jackery-explorer-240-la-mejor-estacion-de-energia-portatil-para-tus-vacaciones" className="myButton mb-3" rel="noopener noreferrer">EXPLORAR MÁS</a>
+              </div>
             </div>
           )}
 
