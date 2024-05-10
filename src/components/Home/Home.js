@@ -8,6 +8,7 @@ import Cardhome2 from '../Card/cardHome2.js';
 import imagen from './assests/imagen-news-home.webp'
 import CarouselHome from './carousel/carousel1.js';
 import Footer from '../Footer/Footer.js';
+import { Helmet } from 'react-helmet';
 
 
 const HOME = () => {
@@ -16,6 +17,9 @@ const HOME = () => {
   return (
   
     <div className='conteiner conteinerHome'>
+      <Helmet>
+        <title>Jackery Chile - Home</title>
+      </Helmet>
       <header className='conteinerHeader'>
         <div className='conteinerhome'>
         <Carousel1/>

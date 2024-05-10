@@ -36,7 +36,7 @@ const footer = () => {
                     <p>Avenida Providencia 1650 Providencia Metropolitana de Santiago</p>
                 </div>
                 <div className='footerTex1'>
-                    <p>consultas@jackery.com</p>
+                    <p>consultas@jackerychile.com</p>
                 </div>
             </section>
             <img src={Logo2} alt='Logo' className='LogoFooter' />

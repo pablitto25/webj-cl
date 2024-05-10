@@ -2,6 +2,7 @@ import './Contact.css'
 import React from 'react';
 import Form from '../Form/Form';
 import Footer from '../Footer/Footer';
+import { Helmet } from 'react-helmet';
 
 const CONTACTO = () => {
 
@@ -9,6 +10,9 @@ const CONTACTO = () => {
   return (
   
     <div className='conteinerContact'>
+      <Helmet>
+        <title>Contacto</title>
+      </Helmet>
       <header className='conteinerContactImg'>
         <div>
           <h1 className='ContactTitle'>Contáctenos</h1>
