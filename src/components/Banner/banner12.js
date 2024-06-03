@@ -11,7 +11,7 @@ const Banner12 = () => {
         <div className="stripe-8">
          <div className='BannerTex'>
                 <h1 className='BannerTexTitle'>Expo San Juan minera 2024: Jackery estuvo presente</h1>
-                <h2 className='BannerTexSubTitle'>Participamos, por primera vez, en uno de los eventos más importantes del sector minero en Argentina. Entrá a la nota y enterate cómo nos fue.</h2>
+                <h2 className='BannerTexSubTitle'>Participamos, por primera vez, en uno de los eventos más importantes del sector minero en Argentina. Entra a la nota y entérate cómo nos fue.</h2>
             </div>
         </div>
         <div className="stripe-1"></div>
