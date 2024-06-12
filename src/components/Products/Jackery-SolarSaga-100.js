@@ -4,7 +4,7 @@ import React from 'react';
 import Cards5 from '../sliders/cards5';
 import CardProduct from '../Card/cardProducts/CardProduct4'
 import Gallery from '../gallery/gallery4';
-import imagen from './assests/producto4/240131-Jackery-Web-Aspectos SolarSaga100-1920x1080-01.jpg'
+import imagen from './assests/producto4/240507-Jackery-Web-Landing-Panel solar-I-1920x1080 (1).jpg'
 import imagen2 from './assests/producto4/240131-Jackery-Web-Aspectos SolarSaga100-1920x1080-02.jpg'
 import CardIcons from '../Card/cardIcons/cardIcons1';
 import Calculator from '../calculator/calculator';

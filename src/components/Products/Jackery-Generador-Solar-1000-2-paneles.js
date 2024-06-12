@@ -4,7 +4,7 @@ import Cards5  from '../sliders/cards5';
 import CardProduct from '../Card/cardProducts/CardProduct5'
 import Gallery from '../gallery/gallery5';
 import imagen from './assests/producto5/240131-Jackery-Web-Aspectos Generador Solar 1000x2-1920x1080-02.jpg'
-import imagen2 from './assests/producto5/240131-Jackery-Web-Aspectos Generador Solar 1000x2-1920x1080-01.jpg'
+import imagen2 from './assests/producto5/240507-Jackery-Web-Landing-Generador 1000x2-D-1920x1080.jpg'
 import CardIcons from '../Card/cardIcons/cardIcons5';
 import Calculator from '../calculator/calculator';
 import Footer from '../Footer/Footer';

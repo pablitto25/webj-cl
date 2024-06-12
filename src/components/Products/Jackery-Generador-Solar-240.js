@@ -3,8 +3,8 @@ import './Products.css'
 import Cards5 from '../sliders/cards5';
 import CardProduct from '../Card/cardProducts/CardProduct8'
 import Gallery from '../gallery/gallery8';
-import imagen from './assests/producto8/240131-Jackery-Web-Aspectos Generador Solar 240-1920x1080-01.jpg'
-import imagen2 from './assests/producto8/240131-Jackery-Web-Aspectos Generador Solar 240-1920x1080-02.jpg'
+import imagen from './assests/producto8/240507-Jackery-Web-Landing-Generador 240-I-1920x1080.jpg'
+import imagen2 from './assests/producto8/240507-Jackery-Web-Landing-Generador 240-D-1920x1080.jpg'
 import CardIcons from '../Card/cardIcons/cardIcons8';
 import Calculator from '../calculator/calculator';
 import Footer from '../Footer/Footer';
