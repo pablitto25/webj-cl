@@ -44,7 +44,7 @@ const footer = () => {
                 <div className='footerLinks'>
                     {icons.map((x) => (
                         <Link key={x.id} to={x.link} target='_blank' className="iconLink">
-                            <img src={x.icon} alt={`Icon ${x.id}`} className="icon" />
+                            <img src={x.icon} alt={`Icon ${x.id}`} className="iconFooter" />
                         </Link>
                     ))}
                 </div>

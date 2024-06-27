@@ -1,7 +1,7 @@
 
 import React from 'react';
 import './banner.css';
-import banner from './assest/JackerGeneradorSolar-portada.webp';
+import banner from './assest/solar_generator_for_refrigerator.jpg';
 
 const Banner11 = () => {
   return (
@@ -10,8 +10,8 @@ const Banner11 = () => {
         <div className="stripe-1"></div>
         <div className="stripe-8">
          <div className='BannerTex'>
-                <h1 className='BannerTexTitle'>Jackery generador solar 240: produce tu propia energía al aire libre</h1>
-                <h2 className='BannerTexSubTitle'>Conoce el generador solar 240 de Jackery: el generador que necesitas para tu próxima escapada al aire libre.</h2>
+                <h1 className='BannerTexTitle'>¿Qué son los generadores solares?</h1>
+                <h2 className='BannerTexSubTitle'>Entra a la nota si quieres conocer más sobre el funcionamiento de los generadores solares.</h2>
             </div>
         </div>
         <div className="stripe-1"></div>
