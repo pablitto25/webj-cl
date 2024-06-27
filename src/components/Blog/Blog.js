@@ -42,7 +42,7 @@ const Blog = () => {
           {selectedCategory === 'TODOS' && (
             <>
               <div id="novedades" className="cardSlider container mb-3">
-                <p className="texSlider">Expo San Juan minera 2024: Jackery estuvo presente</p>
+                <p className="texSlider">¿Qué son los generadores solares?</p>
                 <Cards13 />
                 <a href="/blog/que-son-los-generadores-solares" className="myButton mb-3" rel="noopener noreferrer">EXPLORAR MÁS</a>
               </div>
@@ -174,8 +174,8 @@ const Blog = () => {
           {selectedCategory === 'NOVEDADES' && (
             <div>
               <div id="novedades" className="cardSlider container mb-3">
-                <p className="texSlider">Expo San Juan minera 2024: Jackery estuvo presente</p>
-                <Cards12 />
+                <p className="texSlider">¿Qué son los generadores solares?</p>
+                <Cards13 />
                 <a href="/Blog/expo-san-juan-minera-2024-jackery-estuvo-presente" className="myButton mb-3" rel="noopener noreferrer">EXPLORAR MÁS</a>
               </div>
               <div id="novedades" className="cardSlider container mb-3">
