@@ -17,6 +17,7 @@ import Cards11 from '../sliders/cards11';
 import Cards12 from '../sliders/cards12';
 import Cards13 from '../sliders/cards13';
 import Cards14 from '../sliders/cards14';
+import Cards15 from '../sliders/cards15';
 
 const Blog = () => {
   const [selectedCategory, setSelectedCategory] = useState('TODOS'); // Estado para la categoría seleccionada
@@ -42,6 +43,11 @@ const Blog = () => {
         <section className='conteinerCards'>
           {selectedCategory === 'TODOS' && (
             <>
+              <div id="novedades" className="cardSlider container mb-3">
+                <p className="texSlider">¿Qué son las estaciones de energía?</p>
+                <Cards15 />
+                <a href="/blog/que-son-las-estaciones-de-energia" className="myButton mb-3" rel="noopener noreferrer">EXPLORAR MÁS</a>
+              </div>
               <div id="novedades" className="cardSlider container mb-3">
                 <p className="texSlider">10 razones por las que tienes que comprarla</p>
                 <Cards14 />
@@ -164,6 +170,11 @@ const Blog = () => {
 
           {selectedCategory === 'CONOCIMIENTO' && (
             <div>
+              <div id="novedades" className="cardSlider container mb-3">
+                <p className="texSlider">¿Qué son las estaciones de energía?</p>
+                <Cards15 />
+                <a href="/blog/que-son-las-estaciones-de-energia" className="myButton mb-3" rel="noopener noreferrer">EXPLORAR MÁS</a>
+              </div>
               <div id="novedades" className="cardSlider container mb-3">
                 <p className="texSlider">Expo San Juan minera 2024: Jackery estuvo presente</p>
                 <Cards13 />
