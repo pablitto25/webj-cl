@@ -27,6 +27,7 @@ import JackeryExpoMinera from './components/Notas/conocimiento/JackeryExpoMinera
 import JackeryGeneradoresSolares from './components/Notas/conocimiento/JackeryGeneradoresSolares.js';
 import JackeryRazones from './components/Notas/conocimiento/JackeryRazones.js';
 import JackeryEstacionesDeEnergia from './components/Notas/conocimiento/JackeryEstacionesDeEnergia.js';
+import MejorarLaExperienciaDeTusClientes from './components/Notas/conocimiento/MejorarLaExperienciaDeTusClientes.js';
 
 
 
@@ -63,6 +64,7 @@ function App() {
           <Route path="/blog/que-son-los-generadores-solares" element={<JackeryGeneradoresSolares/>} />
           <Route path="/blog/jackery-explorer-500-10-razones-por-las-que-tienes-que-comprarla" element={<JackeryRazones/>} />
           <Route path="/blog/que-son-las-estaciones-de-energia" element={<JackeryEstacionesDeEnergia/>} />
+          <Route path="/blog/mejora-la-experiencia-de-tus-clientes-como-guia-de-turismo" element={<MejorarLaExperienciaDeTusClientes/>} />
           <Route path="/CONTACTO" element={<Contact/>} />
           </Routes>
       </BrowserRouter>
