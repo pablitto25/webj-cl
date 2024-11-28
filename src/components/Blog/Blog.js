@@ -19,6 +19,9 @@ import Cards13 from '../sliders/cards13';
 import Cards14 from '../sliders/cards14';
 import Cards15 from '../sliders/cards15';
 import Cards16 from '../sliders/cards16';
+import Cards17 from '../sliders/cards17';
+
+
 
 const Blog = () => {
   const [selectedCategory, setSelectedCategory] = useState('TODOS'); // Estado para la categoría seleccionada
@@ -40,10 +43,14 @@ const Blog = () => {
           <p className="menuSliderTex" onClick={() => setSelectedCategory('CONOCIMIENTO')}>CONOCIMIENTO</p>
           <p className="menuSliderTex" onClick={() => setSelectedCategory('NOVEDADES')}>NOVEDADES</p>
         </div>
-
         <section className='conteinerCards'>
           {selectedCategory === 'TODOS' && (
             <>
+              <div id="novedades" className="cardSlider container mb-3">
+                <p className="texSlider">Cómo prepararse para los cortes de luz previstos para este verano</p>
+                <Cards17 />
+                <a href="/blog/mejora-la-experiencia-de-tus-clientes-como-guia-de-turismo" className="myButton mb-3" rel="noopener noreferrer">EXPLORAR MÁS</a>
+              </div>
               <div id="novedades" className="cardSlider container mb-3">
                 <p className="texSlider">Mejora la experiencia de tus clientes como guía de turismo</p>
                 <Cards16 />
@@ -167,11 +174,18 @@ const Blog = () => {
           )}
 
           {selectedCategory === 'EMERGENCIA' && (
+            <>
+            <div id="novedades" className="cardSlider container mb-3">
+              <p className="texSlider">Cómo prepararse para los cortes de luz previstos para este verano</p>
+              <Cards17 />
+              <a href="/blog/mejora-la-experiencia-de-tus-clientes-como-guia-de-turismo" className="myButton mb-3" rel="noopener noreferrer">EXPLORAR MÁS</a>
+            </div>
             <div id="emergencia" className="cardSlider container mb-3">
               <p className="texSlider">EMERGENCIA</p>
               <Cards3 />
               <a href="/Blog/corte-de-energia" className="myButton mb-3" rel="noopener noreferrer">EXPLORAR MÁS</a>
             </div>
+            </>
           )}
 
           {selectedCategory === 'CONOCIMIENTO' && (
