@@ -49,7 +49,7 @@ const Blog = () => {
               <div id="novedades" className="cardSlider container mb-3">
                 <p className="texSlider">Cómo prepararse para los cortes de luz previstos para este verano</p>
                 <Cards17 />
-                <a href="/blog/mejora-la-experiencia-de-tus-clientes-como-guia-de-turismo" className="myButton mb-3" rel="noopener noreferrer">EXPLORAR MÁS</a>
+                <a href="/blog/como-prepararse-para-los-cortes-de-luz-previstos-para-este-verano" className="myButton mb-3" rel="noopener noreferrer">EXPLORAR MÁS</a>
               </div>
               <div id="novedades" className="cardSlider container mb-3">
                 <p className="texSlider">Mejora la experiencia de tus clientes como guía de turismo</p>
@@ -178,7 +178,7 @@ const Blog = () => {
             <div id="novedades" className="cardSlider container mb-3">
               <p className="texSlider">Cómo prepararse para los cortes de luz previstos para este verano</p>
               <Cards17 />
-              <a href="/blog/mejora-la-experiencia-de-tus-clientes-como-guia-de-turismo" className="myButton mb-3" rel="noopener noreferrer">EXPLORAR MÁS</a>
+              <a href="/blog/como-prepararse-para-los-cortes-de-luz-previstos-para-este-verano" className="myButton mb-3" rel="noopener noreferrer">EXPLORAR MÁS</a>
             </div>
             <div id="emergencia" className="cardSlider container mb-3">
               <p className="texSlider">EMERGENCIA</p>
