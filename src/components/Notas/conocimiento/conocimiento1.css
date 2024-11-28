@@ -41,6 +41,10 @@
     height: auto;
 }
 
+.imageStyle{
+    width: 500px;
+}
+
 @media (max-width: 800px) {
     .NotaImgConteiner img {
         max-width: 50%;
