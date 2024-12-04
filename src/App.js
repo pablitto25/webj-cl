@@ -30,6 +30,7 @@ import JackeryEstacionesDeEnergia from './components/Notas/conocimiento/JackeryE
 import MejorarLaExperienciaDeTusClientes from './components/Notas/conocimiento/MejorarLaExperienciaDeTusClientes.js';
 import CortesDeLuz from './components/Notas/conocimiento/CortesDeLuz.js';
 import GuiaTurismo from './components/Notas/conocimiento/GuiaTurismo.js';
+import SinConexionElectrica from './components/Notas/conocimiento/SinConexionElectrica.js';
 
 
 
@@ -69,6 +70,7 @@ function App() {
           <Route path="/blog/mejora-la-experiencia-de-tus-clientes-como-guia-de-turismo" element={<MejorarLaExperienciaDeTusClientes/>} />
           <Route path="/blog/como-prepararse-para-los-cortes-de-luz-previstos-para-este-verano" element={<CortesDeLuz/>} />
           <Route path="/blog/mejorar-la-experiencia-de-tus-clientes-como-guia-de-turismo" element={<GuiaTurismo/>} />
+          <Route path="/blog/como-trabajar-sin-conexion-electrica-para-un-rodaje-en-exteriores" element={<SinConexionElectrica/>} />
           <Route path="/CONTACTO" element={<Contact/>} />
           </Routes>
       </BrowserRouter>
