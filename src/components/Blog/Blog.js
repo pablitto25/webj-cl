@@ -23,6 +23,8 @@ import Cards17 from '../sliders/cards17';
 import Cards18 from '../sliders/cards18';
 import Cards19 from '../sliders/cards19';
 import Cards20 from '../sliders/cards20';
+import Cards21 from '../sliders/cards21';
+import Cards22 from '../sliders/cards22';
 import { Link } from 'react-router-dom';
 
 
@@ -50,6 +52,16 @@ const Blog = () => {
         <section className='conteinerCards'>
           {selectedCategory === 'TODOS' && (
             <>
+              <div id="novedades" className="cardSlider container mb-3">
+                <p className="texSlider">Cómo prepararse para un corte de luz prolongado</p>
+                <Cards22 />
+                <Link className="myButton mb-3" rel="noopener noreferrer" to={"/blog/como-prepararse-para-un-corte-de-luz-prolongado"}>EXPLORAR MÁS</Link>
+              </div>
+              <div id="novedades" className="cardSlider container mb-3">
+                <p className="texSlider">Cómo la energía portátil facilita las salidas scout</p>
+                <Cards21 />
+                <Link className="myButton mb-3" rel="noopener noreferrer" to={"/blog/como-la-energia-portatil-facilita-las-salidas-scout"}>EXPLORAR MÁS</Link>
+              </div>
               <div id="novedades" className="cardSlider container mb-3">
                 <p className="texSlider">Cómo construir una casita para perros de manera rápida y fácil</p>
                 <Cards20 />
