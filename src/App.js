@@ -31,6 +31,8 @@ import MejorarLaExperienciaDeTusClientes from './components/Notas/conocimiento/M
 import CortesDeLuz from './components/Notas/conocimiento/CortesDeLuz.js';
 import GuiaTurismo from './components/Notas/conocimiento/GuiaTurismo.js';
 import SinConexionElectrica from './components/Notas/conocimiento/SinConexionElectrica.js';
+import ComoConstruirUnaCasita from './components/Notas/conocimiento/ComoConstruirUnaCasita.js';
+import ScrollToTop from './hooks/ScrollToTop.js';
 
 
 
@@ -39,6 +41,7 @@ function App() {
     <div className="App">
     <BrowserRouter>
         <NavBar/>
+          <ScrollToTop/>
           <Routes>
           <Route path="/" element={<HOME/>} />
           <Route path="/HOME" element={<HOME/>} />
@@ -71,6 +74,7 @@ function App() {
           <Route path="/blog/como-prepararse-para-los-cortes-de-luz-previstos-para-este-verano" element={<CortesDeLuz/>} />
           <Route path="/blog/mejorar-la-experiencia-de-tus-clientes-como-guia-de-turismo" element={<GuiaTurismo/>} />
           <Route path="/blog/como-trabajar-sin-conexion-electrica-para-un-rodaje-en-exteriores" element={<SinConexionElectrica/>} />
+          <Route path="/blog/como-construir-una-casita-para-perros-de-manera-rapida-y-facil" element={<ComoConstruirUnaCasita/>} />
           <Route path="/CONTACTO" element={<Contact/>} />
           </Routes>
       </BrowserRouter>
