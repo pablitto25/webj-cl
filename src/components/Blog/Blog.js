@@ -26,6 +26,7 @@ import Cards20 from '../sliders/cards20';
 import Cards21 from '../sliders/cards21';
 import Cards22 from '../sliders/cards22';
 import { Link } from 'react-router-dom';
+import Cards23 from '../sliders/cards23';
 
 
 
@@ -52,6 +53,11 @@ const Blog = () => {
         <section className='conteinerCards'>
           {selectedCategory === 'TODOS' && (
             <>
+              <div id="novedades" className="cardSlider container mb-3">
+                <p className="texSlider">Qué hacer si se corta la luz y necesitás trabajar</p>
+                <Cards23 />
+                <Link className="myButton mb-3" rel="noopener noreferrer" to={"/blog/que-hacer-si-se-corta-la-luz-y-necesitas-trabajar"}>EXPLORAR MÁS</Link>
+              </div>
               <div id="novedades" className="cardSlider container mb-3">
                 <p className="texSlider">Cómo prepararse para un corte de luz prolongado</p>
                 <Cards22 />

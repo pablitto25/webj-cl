@@ -35,6 +35,7 @@ import ComoConstruirUnaCasita from './components/Notas/conocimiento/ComoConstrui
 import ScrollToTop from './hooks/ScrollToTop.js';
 import EnergiaPortatilScout from './components/Notas/conocimiento/EnergiaPortatilScout.js';
 import CorteDeLuzProlongado from './components/Notas/conocimiento/CorteDeLuzProlongado.js';
+import SeCortaLaLuzYNecesitasTrabajar from './components/Notas/conocimiento/SeCortaLaLuzYNecesitasTrabajar.js';
 
 
 
@@ -79,6 +80,7 @@ function App() {
           <Route path="/blog/como-construir-una-casita-para-perros-de-manera-rapida-y-facil" element={<ComoConstruirUnaCasita/>} />
           <Route path="/blog/como-la-energia-portatil-facilita-las-salidas-scout" element={<EnergiaPortatilScout/>} />
           <Route path="/blog/como-prepararse-para-un-corte-de-luz-prolongado" element={<CorteDeLuzProlongado/>} />
+          <Route path="/blog/que-hacer-si-se-corta-la-luz-y-necesitas-trabajar" element={<SeCortaLaLuzYNecesitasTrabajar/>} />
           <Route path="/CONTACTO" element={<Contact/>} />
           </Routes>
       </BrowserRouter>
