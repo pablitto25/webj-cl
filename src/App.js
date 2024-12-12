@@ -38,6 +38,7 @@ import CorteDeLuzProlongado from './components/Notas/conocimiento/CorteDeLuzProl
 import SeCortaLaLuzYNecesitasTrabajar from './components/Notas/conocimiento/SeCortaLaLuzYNecesitasTrabajar.js';
 import SolaresVsGeneradores from './components/Notas/conocimiento/SolaresVsGeneradores.js';
 import SalidarEscolar from './components/Notas/conocimiento/SalidarEscolar.js';
+import EnergiaPortatilEnElAgro from './components/Notas/conocimiento/EnergiaPortatilEnElAgro.js';
 
 
 
@@ -85,6 +86,7 @@ function App() {
           <Route path="/blog/que-hacer-si-se-corta-la-luz-y-necesitas-trabajar" element={<SeCortaLaLuzYNecesitasTrabajar/>} />
           <Route path="/blog/generador-solar-vs-generadores-tradicionales" element={<SolaresVsGeneradores/>} />
           <Route path="/blog/salidar-escolar-como-la-energia-portatil-facilita-su-organizacion" element={<SalidarEscolar/>} />
+          <Route path="/blog/algunas-aplicaciones-de-energia-portatil-en-el-agro" element={<EnergiaPortatilEnElAgro/>} />
           <Route path="/CONTACTO" element={<Contact/>} />
           </Routes>
       </BrowserRouter>
