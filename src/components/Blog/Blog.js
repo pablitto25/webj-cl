@@ -30,6 +30,7 @@ import Cards23 from '../sliders/cards23';
 import Cards24 from '../sliders/cards24';
 import Cards25 from '../sliders/cards25';
 import Cards26 from '../sliders/cards26';
+import Cards27 from '../sliders/cards27';
 
 
 
@@ -57,13 +58,18 @@ const Blog = () => {
           {selectedCategory === 'TODOS' && (
             <>
               <div id="novedades" className="cardSlider container mb-3">
+                <p className="texSlider">Cómo el uso de la energía portátil revoluciona el trabajo en la minería</p>
+                <Cards27 />
+                <Link className="myButton mb-3" rel="noopener noreferrer" to={"/blog/como-el-uso-de-la-energia-portatil-revoluciona-el-trabajo-en-la-mineria"}>EXPLORAR MÁS</Link>
+              </div>
+              <div id="novedades" className="cardSlider container mb-3">
                 <p className="texSlider">Algunas aplicaciones de energía portátil en el agro</p>
-                <Cards26/>
+                <Cards26 />
                 <Link className="myButton mb-3" rel="noopener noreferrer" to={"/blog/algunas-aplicaciones-de-energia-portatil-en-el-agro"}>EXPLORAR MÁS</Link>
               </div>
               <div id="novedades" className="cardSlider container mb-3">
                 <p className="texSlider">Salida escolar: cómo la energía portátil facilita su organización</p>
-                <Cards25/>
+                <Cards25 />
                 <Link className="myButton mb-3" rel="noopener noreferrer" to={"/blog/salidar-escolar-como-la-energia-portatil-facilita-su-organizacion"}>EXPLORAR MÁS</Link>
               </div>
               <div id="novedades" className="cardSlider container mb-3">

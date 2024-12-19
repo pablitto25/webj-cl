@@ -39,6 +39,7 @@ import SeCortaLaLuzYNecesitasTrabajar from './components/Notas/conocimiento/SeCo
 import SolaresVsGeneradores from './components/Notas/conocimiento/SolaresVsGeneradores.js';
 import SalidarEscolar from './components/Notas/conocimiento/SalidarEscolar.js';
 import EnergiaPortatilEnElAgro from './components/Notas/conocimiento/EnergiaPortatilEnElAgro.js';
+import TrabajoEnLaMineria from './components/Notas/conocimiento/TrabajoEnLaMineria.js';
 
 
 
@@ -87,6 +88,7 @@ function App() {
           <Route path="/blog/generador-solar-vs-generadores-tradicionales" element={<SolaresVsGeneradores/>} />
           <Route path="/blog/salidar-escolar-como-la-energia-portatil-facilita-su-organizacion" element={<SalidarEscolar/>} />
           <Route path="/blog/algunas-aplicaciones-de-energia-portatil-en-el-agro" element={<EnergiaPortatilEnElAgro/>} />
+          <Route path="/blog/como-el-uso-de-la-energia-portatil-revoluciona-el-trabajo-en-la-mineria" element={<TrabajoEnLaMineria/>} />
           <Route path="/CONTACTO" element={<Contact/>} />
           </Routes>
       </BrowserRouter>
