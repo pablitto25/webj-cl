@@ -40,6 +40,8 @@ import SolaresVsGeneradores from './components/Notas/conocimiento/SolaresVsGener
 import SalidarEscolar from './components/Notas/conocimiento/SalidarEscolar.js';
 import EnergiaPortatilEnElAgro from './components/Notas/conocimiento/EnergiaPortatilEnElAgro.js';
 import TrabajoEnLaMineria from './components/Notas/conocimiento/TrabajoEnLaMineria.js';
+import NavidadInolvidable from './components/Notas/conocimiento/NavidadInolvidable.js';
+import TemperaturasExtremas from './components/Notas/conocimiento/TemperaturasExtremas.js';
 
 
 
@@ -89,6 +91,8 @@ function App() {
           <Route path="/blog/salidar-escolar-como-la-energia-portatil-facilita-su-organizacion" element={<SalidarEscolar/>} />
           <Route path="/blog/algunas-aplicaciones-de-energia-portatil-en-el-agro" element={<EnergiaPortatilEnElAgro/>} />
           <Route path="/blog/como-el-uso-de-la-energia-portatil-revoluciona-el-trabajo-en-la-mineria" element={<TrabajoEnLaMineria/>} />
+          <Route path="/blog/energia-portatil-para-una-navidad-inolvidable" element={<NavidadInolvidable/>} />
+          <Route path="/blog/cortes-de-luz-que-hacer-ante-temperaturas-extremas" element={<TemperaturasExtremas/>} />
           <Route path="/CONTACTO" element={<Contact/>} />
           </Routes>
       </BrowserRouter>

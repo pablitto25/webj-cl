@@ -31,6 +31,8 @@ import Cards24 from '../sliders/cards24';
 import Cards25 from '../sliders/cards25';
 import Cards26 from '../sliders/cards26';
 import Cards27 from '../sliders/cards27';
+import Cards28 from '../sliders/cards28';
+import Cards29 from '../sliders/cards29';
 
 
 
@@ -57,6 +59,16 @@ const Blog = () => {
         <section className='conteinerCards'>
           {selectedCategory === 'TODOS' && (
             <>
+              <div id="novedades" className="cardSlider container mb-3">
+                <p className="texSlider">Corte de luz: qué hacer ante temperaturas extremas</p>
+                <Cards29 />
+                <Link className="myButton mb-3" rel="noopener noreferrer" to={"/blog/cortes-de-luz-que-hacer-ante-temperaturas-extremas"}>EXPLORAR MÁS</Link>
+              </div>
+              <div id="novedades" className="cardSlider container mb-3">
+                <p className="texSlider">Energía portátil para una Navidad inolvidable</p>
+                <Cards28 />
+                <Link className="myButton mb-3" rel="noopener noreferrer" to={"/blog/energia-portatil-para-una-navidad-inolvidable"}>EXPLORAR MÁS</Link>
+              </div>
               <div id="novedades" className="cardSlider container mb-3">
                 <p className="texSlider">Cómo el uso de la energía portátil revoluciona el trabajo en la minería</p>
                 <Cards27 />
