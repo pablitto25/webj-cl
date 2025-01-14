@@ -33,6 +33,7 @@ import Cards26 from '../sliders/cards26';
 import Cards27 from '../sliders/cards27';
 import Cards28 from '../sliders/cards28';
 import Cards29 from '../sliders/cards29';
+import Cards30 from '../sliders/cards30';
 
 
 
@@ -59,6 +60,11 @@ const Blog = () => {
         <section className='conteinerCards'>
           {selectedCategory === 'TODOS' && (
             <>
+              <div id="novedades" className="cardSlider container mb-3">
+                <p className="texSlider">Energía portátil para unas vacaciones de verano sin límites</p>
+                <Cards30 />
+                <Link className="myButton mb-3" rel="noopener noreferrer" to={"/blog/energia-portatil-para-unas-vacaciones-de-verano-sin-limites"}>EXPLORAR MÁS</Link>
+              </div>
               <div id="novedades" className="cardSlider container mb-3">
                 <p className="texSlider">Corte de luz: qué hacer ante temperaturas extremas</p>
                 <Cards29 />

@@ -42,6 +42,7 @@ import EnergiaPortatilEnElAgro from './components/Notas/conocimiento/EnergiaPort
 import TrabajoEnLaMineria from './components/Notas/conocimiento/TrabajoEnLaMineria.js';
 import NavidadInolvidable from './components/Notas/conocimiento/NavidadInolvidable.js';
 import TemperaturasExtremas from './components/Notas/conocimiento/TemperaturasExtremas.js';
+import VacacionesDeVerano from './components/Notas/conocimiento/VacacionesDeVerano.js';
 
 
 
@@ -93,6 +94,7 @@ function App() {
           <Route path="/blog/como-el-uso-de-la-energia-portatil-revoluciona-el-trabajo-en-la-mineria" element={<TrabajoEnLaMineria/>} />
           <Route path="/blog/energia-portatil-para-una-navidad-inolvidable" element={<NavidadInolvidable/>} />
           <Route path="/blog/cortes-de-luz-que-hacer-ante-temperaturas-extremas" element={<TemperaturasExtremas/>} />
+          <Route path="/blog/energia-portatil-para-unas-vacaciones-de-verano-sin-limites" element={<VacacionesDeVerano/>} />
           <Route path="/CONTACTO" element={<Contact/>} />
           </Routes>
       </BrowserRouter>
