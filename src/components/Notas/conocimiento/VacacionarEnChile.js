@@ -92,7 +92,7 @@ const VacacionesEnChile = () => {
 
                     <p>
                         <strong>Jackery, el aliado de tus vacaciones</strong>
-                        No te olvides que la electricidad no llega a muchos destinos turísticos, lo que podría limitar tus vacaciones. Por eso, te recomendamos que consigas una <Link to="https://jackerychile.com/PRODUCTOS/Jackery%20Explorer%20240" className='uline'><span style={{ color: '#FF5000' }}>Explorer 240</span></Link> para que no dependas de alargadores ni enchufes.
+                        No te olvides que la electricidad no llega a muchos destinos turísticos, lo que podría limitar tus planes. Así que vive con libertad energética tus vacaciones y suma confort a tus planes. Para eso, te recomendamos que consigas una <Link to="https://jackerychile.com/PRODUCTOS/Jackery%20Explorer%20240" className='uline' target='_blank'><span style={{ color: '#FF5000' }}>Explorer 240</span></Link> para que no dependas de alargadores ni enchufes.
                         Con ella, puedes cargar de manera simultánea diferentes tipos de dispositivos electrónicos que necesitas para tu aventura:
                     </p>
 
@@ -103,11 +103,12 @@ const VacacionesEnChile = () => {
                         <li><strong>Dispositivos para la seguridad</strong>: para tener un viaje tranquilo te conviene tener un gps a mano para saber las ubicaciones de cualquier lugar. Con la estación de energía, podrás cargar tu Garmin GPSMAP 64sx y usarla de forma continua por 4 días.
                             Ahora bien, si planeás hacer campamento en la montaña, es imprescindible que tengas a mano luces. Con la Explorer 240, podrás cargar tu Black Diamond Spot 400 Headlamp y usarla de manera continua por 2 días.
                         </li>
-                        <li><strong>Dispositivos para la salud</strong>: si tienes algún familiar con alguna complicación de salud, conviene que te asegures energía para casos de emergencia. Con la Explorer 240, podrás usar por 4 horas continuas tu Philips DreamStation Auto CPAP y tu nebulizador Omron NE-C801 por 6 horas.</li>
+                        <li><strong>Dispositivos para la salud</strong>: si tienes algún familiar que necesita asistencia especial, conviene que te asegures energía para casos de emergencia. Con la Explorer 240, por ejemplo, podrías utilizar por 4 horas continuas tu Philips DreamStation Auto CPAP y tu nebulizador Omron NE-C801 por 6 horas.</li>
                     </ul>
 
                     <p>
-                        En definitiva, <strong>Jackery</strong> es el aliado perfecto para tener energía a donde sea que vayas en tus vacaciones. ¡A disfrutar el verano!
+                        En resumen, nuestro país tiene grandes lugares por descubrir en familia o con amigos. No te pierdas la oportunidad de tener unas vacaciones inolvidables.
+                        Y no te olvides de que <strong>Jackery</strong> es el aliado perfecto para tener energía a donde sea que vayas en tu aventura. ¡A disfrutar el verano!
                     </p>
 
 

@@ -11,7 +11,7 @@ const Banner31 = () => {
         <div className="stripe-8">
           <div className='BannerTex'>
             <h1 className='BannerTexTitle'>Los 5 lugares más elegidos para vacacionar en Chile</h1>
-            <h2 className='BannerTexSubTitle'>¿Quieres vacacionar y no sabes a dónde ir? Te traemos los lugares más elegidos en nuestro país. Entra a la nota y enterate más.</h2>
+            <h2 className='BannerTexSubTitle'>¿Sabes cuáles son los lugares más visitados de nuestro país? Te traemos los lugares más elegidos en Chile, ideales para las vacaciones familiares o con amigos. Entra a la nota y enterate más. </h2>
           </div>
         </div>
         <div className="stripe-1"></div>
