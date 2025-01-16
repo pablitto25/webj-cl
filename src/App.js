@@ -43,6 +43,7 @@ import TrabajoEnLaMineria from './components/Notas/conocimiento/TrabajoEnLaMiner
 import NavidadInolvidable from './components/Notas/conocimiento/NavidadInolvidable.js';
 import TemperaturasExtremas from './components/Notas/conocimiento/TemperaturasExtremas.js';
 import VacacionesDeVerano from './components/Notas/conocimiento/VacacionesDeVerano.js';
+import VacacionesEnChile from './components/Notas/conocimiento/VacacionarEnChile.js';
 
 
 
@@ -95,6 +96,7 @@ function App() {
           <Route path="/blog/energia-portatil-para-una-navidad-inolvidable" element={<NavidadInolvidable/>} />
           <Route path="/blog/cortes-de-luz-que-hacer-ante-temperaturas-extremas" element={<TemperaturasExtremas/>} />
           <Route path="/blog/energia-portatil-para-unas-vacaciones-de-verano-sin-limites" element={<VacacionesDeVerano/>} />
+          <Route path="/blog/los-5-lugares-mas-elegidos-para-vacacionar-en-chile" element={<VacacionesEnChile/>} />
           <Route path="/CONTACTO" element={<Contact/>} />
           </Routes>
       </BrowserRouter>

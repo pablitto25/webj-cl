@@ -11,12 +11,16 @@
     
 }
 
+.uline{
+    text-decoration: none;
+}
+
 
 .NotaTexConteiner {
     margin: 20px;
     text-align: justify;
-    max-width: 100%; /* Limita el ancho máximo del contenedor de texto */
-    overflow: hidden; /* Oculta cualquier desbordamiento */
+    max-width: 100%; 
+    overflow: hidden; 
 }
 
 .NotaTitleConteiner{
