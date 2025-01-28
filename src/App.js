@@ -44,6 +44,7 @@ import NavidadInolvidable from './components/Notas/conocimiento/NavidadInolvidab
 import TemperaturasExtremas from './components/Notas/conocimiento/TemperaturasExtremas.js';
 import VacacionesDeVerano from './components/Notas/conocimiento/VacacionesDeVerano.js';
 import VacacionesEnChile from './components/Notas/conocimiento/VacacionarEnChile.js';
+import EnergiaPortatilParaTuProyecto from './components/Notas/conocimiento/EnergiaPortatilParaTuProyecto.js';
 
 
 
@@ -97,6 +98,7 @@ function App() {
           <Route path="/blog/cortes-de-luz-que-hacer-ante-temperaturas-extremas" element={<TemperaturasExtremas/>} />
           <Route path="/blog/energia-portatil-para-unas-vacaciones-de-verano-sin-limites" element={<VacacionesDeVerano/>} />
           <Route path="/blog/los-5-lugares-mas-elegidos-para-vacacionar-en-chile" element={<VacacionesEnChile/>} />
+          <Route path="/blog/energia-portatil-para-tu-proyecto" element={<EnergiaPortatilParaTuProyecto/>} />
           <Route path="/CONTACTO" element={<Contact/>} />
           </Routes>
       </BrowserRouter>
