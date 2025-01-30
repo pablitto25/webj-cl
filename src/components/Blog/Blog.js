@@ -35,6 +35,7 @@ import Cards28 from '../sliders/cards28';
 import Cards29 from '../sliders/cards29';
 import Cards30 from '../sliders/cards30';
 import Cards31 from '../sliders/cards31';
+import Cards32 from '../sliders/cards32';
 
 
 
@@ -61,6 +62,11 @@ const Blog = () => {
         <section className='conteinerCards'>
           {selectedCategory === 'TODOS' && (
             <>
+              <div id="novedades" className="cardSlider container mb-3">
+                <p className="texSlider">Sismo: qué hacer si te quedaste sin luz</p>
+                <Cards32 />
+                <Link className="myButton mb-3" rel="noopener noreferrer" to={"/blog/sismos-que-hacer-si-te-quedaste-sin-luz"}>EXPLORAR MÁS</Link>
+              </div>
               <div id="novedades" className="cardSlider container mb-3">
                 <p className="texSlider">Energía portátil para tu proyecto</p>
                 <Cards31 />

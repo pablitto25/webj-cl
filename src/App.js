@@ -45,6 +45,7 @@ import TemperaturasExtremas from './components/Notas/conocimiento/TemperaturasEx
 import VacacionesDeVerano from './components/Notas/conocimiento/VacacionesDeVerano.js';
 import VacacionesEnChile from './components/Notas/conocimiento/VacacionarEnChile.js';
 import EnergiaPortatilParaTuProyecto from './components/Notas/conocimiento/EnergiaPortatilParaTuProyecto.js';
+import Sismos from './components/Notas/conocimiento/Sismos.js';
 
 
 
@@ -99,6 +100,7 @@ function App() {
           <Route path="/blog/energia-portatil-para-unas-vacaciones-de-verano-sin-limites" element={<VacacionesDeVerano/>} />
           <Route path="/blog/los-5-lugares-mas-elegidos-para-vacacionar-en-chile" element={<VacacionesEnChile/>} />
           <Route path="/blog/energia-portatil-para-tu-proyecto" element={<EnergiaPortatilParaTuProyecto/>} />
+          <Route path="/blog/sismos-que-hacer-si-te-quedaste-sin-luz" element={<Sismos/>} />
           <Route path="/CONTACTO" element={<Contact/>} />
           </Routes>
       </BrowserRouter>
