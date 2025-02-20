@@ -36,6 +36,7 @@ import Cards29 from '../sliders/cards29';
 import Cards30 from '../sliders/cards30';
 import Cards31 from '../sliders/cards31';
 import Cards32 from '../sliders/cards32';
+import Cards33 from '../sliders/cards33';
 
 
 
@@ -62,6 +63,11 @@ const Blog = () => {
         <section className='conteinerCards'>
           {selectedCategory === 'TODOS' && (
             <>
+              <div id="novedades" className="cardSlider container mb-3">
+                <p className="texSlider">¿Cortes de luz? Descubre cómo un generador solar puede ser tu solución </p>
+                <Cards33 />
+                <Link className="myButton mb-3" rel="noopener noreferrer" to={"/blog/cortes-de-luz-descubre-como-un-generador-solar-puede-ser-tu-solucion"}>EXPLORAR MÁS</Link>
+              </div>
               <div id="novedades" className="cardSlider container mb-3">
                 <p className="texSlider">Sismo: qué hacer si te quedaste sin luz</p>
                 <Cards32 />
