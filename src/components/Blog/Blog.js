@@ -38,6 +38,7 @@ import Cards31 from '../sliders/cards31';
 import Cards32 from '../sliders/cards32';
 import Cards33 from '../sliders/cards33';
 import Cards34 from '../sliders/cards34';
+import Cards35 from '../sliders/cards35';
 
 
 
@@ -64,6 +65,11 @@ const Blog = () => {
         <section className='conteinerCards'>
           {selectedCategory === 'TODOS' && (
             <>
+              <div id="novedades" className="cardSlider container mb-3">
+                <p className="texSlider">Los 5 lugares más elegidos para hacer 4x4 en Chile</p>
+                <Cards35 />
+                <Link className="myButton mb-3" rel="noopener noreferrer" to={"/blog/los-5-lugares-mas-elegidos-para-hacer-4x4-en-chile"}>EXPLORAR MÁS</Link>
+              </div>
               <div id="novedades" className="cardSlider container mb-3">
                 <p className="texSlider">Home office: energía portátil para hacer home en cualquier lugar</p>
                 <Cards34 />

@@ -48,6 +48,7 @@ import EnergiaPortatilParaTuProyecto from './components/Notas/conocimiento/Energ
 import Sismos from './components/Notas/conocimiento/Sismos.js';
 import CortesDeLuzTuSolucion from './components/Notas/conocimiento/CortesDeLuzTuSolucion.js';
 import HomeOffice from './components/Notas/conocimiento/HomeOffice.js';
+import Hacer4x4EnChile from './components/Notas/conocimiento/Hacer4x4EnChile.js';
 
 
 
@@ -105,6 +106,7 @@ function App() {
           <Route path="/blog/sismos-que-hacer-si-te-quedaste-sin-luz" element={<Sismos/>} />
           <Route path="/blog/cortes-de-luz-descubre-como-un-generador-solar-puede-ser-tu-solucion" element={<CortesDeLuzTuSolucion/>} />
           <Route path="/blog/home-office-energia-portatil-para-hacer-home-en-cualquier-lugar" element={<HomeOffice/>} />
+          <Route path="/blog/los-5-lugares-mas-elegidos-para-hacer-4x4-en-chile" element={<Hacer4x4EnChile/>} />
           <Route path="/CONTACTO" element={<Contact/>} />
           </Routes>
       </BrowserRouter>
